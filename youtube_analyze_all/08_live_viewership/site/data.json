@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-08T21:04:03.796715+00:00",
-    "n_snapshots": 123310,
+    "fetched_at": "2026-11-08T21:14:23.566721+00:00",
+    "n_snapshots": 123325,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-08T21:04:03.796715+00:00"
+      "2026-11-08T21:14:23.566721+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 112727,
-    "n_timepoints": 9911,
-    "span_hours": 2127.14,
-    "observed_hours": 1695.46,
+    "n_snapshots": 112741,
+    "n_timepoints": 9912,
+    "span_hours": 2127.31,
+    "observed_hours": 1695.64,
     "coverage_ratio": 0.797,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 26080,
+    "n_live_rows": 26081,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-08T21:04:03.796715+00:00"
+    "last": "2026-11-08T21:14:23.566721+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,23 +31,23 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 179617,
-      "follower_delta": 138409,
-      "follower_per_day": 5373.7,
+      "followers": 179615,
+      "follower_delta": 138407,
+      "follower_per_day": 5372.1,
       "n_sessions": 21,
       "n_live_points": 579,
       "peak_ccu": 79149,
       "avg_ccu": 15318,
-      "ccu_per_1k_followers": 440.65
+      "ccu_per_1k_followers": 440.66
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 142008,
-      "follower_delta": 101840,
-      "follower_per_day": 3953.9,
+      "followers": 142009,
+      "follower_delta": 101841,
+      "follower_per_day": 3952.9,
       "n_sessions": 22,
       "n_live_points": 882,
       "peak_ccu": 67950,
@@ -59,9 +59,9 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 141702,
-      "follower_delta": 101585,
-      "follower_per_day": 3944.0,
+      "followers": 141703,
+      "follower_delta": 101586,
+      "follower_per_day": 3943.0,
       "n_sessions": 21,
       "n_live_points": 727,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 156012,
-      "follower_delta": 116854,
-      "follower_per_day": 4536.8,
+      "followers": 156020,
+      "follower_delta": 116862,
+      "follower_per_day": 4535.9,
       "n_sessions": 23,
-      "n_live_points": 738,
+      "n_live_points": 739,
       "peak_ccu": 60712,
-      "avg_ccu": 16614,
-      "ccu_per_1k_followers": 389.15
+      "avg_ccu": 16608,
+      "ccu_per_1k_followers": 389.13
     },
     {
       "rank": 5,
@@ -115,9 +115,9 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 235373,
-      "follower_delta": 26038,
-      "follower_per_day": 293.8,
+      "followers": 235372,
+      "follower_delta": 26037,
+      "follower_per_day": 293.7,
       "n_sessions": 162,
       "n_live_points": 2917,
       "peak_ccu": 33491,
@@ -143,8 +143,8 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 236668,
-      "follower_delta": 29242,
+      "followers": 236669,
+      "follower_delta": 29243,
       "follower_per_day": 329.9,
       "n_sessions": 135,
       "n_live_points": 2304,
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 322360,
-      "follower_delta": 20440,
+      "followers": 322359,
+      "follower_delta": 20439,
       "follower_per_day": 230.6,
       "n_sessions": 137,
       "n_live_points": 2506,
@@ -373,10 +373,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-08 22:59",
-      "observed_min": 424.2,
-      "n_points": 43,
+      "observed_min": 434.5,
+      "n_points": 44,
       "peak_ccu": 28315,
-      "avg_ccu": 18473,
+      "avg_ccu": 18323,
       "title": "첫마인크래프트인데요 안녕하세요!!",
       "category": "마인크래프트"
     },
@@ -70302,6 +70302,10 @@
         [
           "2026-11-09 06:04",
           11924
+        ],
+        [
+          "2026-11-09 06:14",
+          11885
         ]
       ]
     },

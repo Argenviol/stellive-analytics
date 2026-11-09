@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-09T06:33:16.268465+00:00",
-    "n_snapshots": 124150,
+    "fetched_at": "2026-11-09T06:34:22.484131+00:00",
+    "n_snapshots": 124165,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-09T06:33:16.268465+00:00"
+      "2026-11-09T06:34:22.484131+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 113511,
-    "n_timepoints": 9967,
-    "span_hours": 2136.63,
-    "observed_hours": 1705.11,
+    "n_snapshots": 113525,
+    "n_timepoints": 9968,
+    "span_hours": 2136.65,
+    "observed_hours": 1705.28,
     "coverage_ratio": 0.798,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 26090,
+    "n_live_rows": 26092,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-09T06:33:16.268465+00:00"
+    "last": "2026-11-09T06:34:22.484131+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 179699,
       "follower_delta": 138491,
-      "follower_per_day": 5295.6,
+      "follower_per_day": 5295.5,
       "n_sessions": 21,
       "n_live_points": 579,
       "peak_ccu": 79149,
@@ -47,11 +47,11 @@
       "unit": "ABYSS",
       "followers": 142091,
       "follower_delta": 101923,
-      "follower_per_day": 3897.3,
+      "follower_per_day": 3897.2,
       "n_sessions": 23,
-      "n_live_points": 883,
+      "n_live_points": 884,
       "peak_ccu": 67950,
-      "avg_ccu": 6693,
+      "avg_ccu": 6687,
       "ccu_per_1k_followers": 478.21
     },
     {
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 141766,
       "follower_delta": 101649,
-      "follower_per_day": 3886.9,
+      "follower_per_day": 3886.7,
       "n_sessions": 21,
       "n_live_points": 727,
       "peak_ccu": 62637,
@@ -75,7 +75,7 @@
       "unit": "ABYSS",
       "followers": 156198,
       "follower_delta": 117040,
-      "follower_per_day": 4475.4,
+      "follower_per_day": 4475.3,
       "n_sessions": 23,
       "n_live_points": 743,
       "peak_ccu": 60712,
@@ -87,8 +87,8 @@
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 181695,
-      "follower_delta": 24954,
+      "followers": 181696,
+      "follower_delta": 24955,
       "follower_per_day": 280.3,
       "n_sessions": 96,
       "n_live_points": 1672,
@@ -105,9 +105,9 @@
       "follower_delta": 25358,
       "follower_per_day": 284.8,
       "n_sessions": 158,
-      "n_live_points": 2845,
+      "n_live_points": 2846,
       "peak_ccu": 38237,
-      "avg_ccu": 5456,
+      "avg_ccu": 5455,
       "ccu_per_1k_followers": 136.23
     },
     {
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 230922,
-      "follower_delta": 21103,
+      "followers": 230921,
+      "follower_delta": 21102,
       "follower_per_day": 237.0,
       "n_sessions": 140,
       "n_live_points": 1761,
@@ -7549,10 +7549,10 @@
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
       "start_kst": "2026-11-09 15:02",
-      "observed_min": 31.0,
-      "n_points": 4,
+      "observed_min": 32.1,
+      "n_points": 5,
       "peak_ccu": 4477,
-      "avg_ccu": 2884,
+      "avg_ccu": 3188,
       "title": "오늘부터 ....선수입미댜",
       "category": "talk"
     },
@@ -17349,6 +17349,18 @@
       "category": "talk"
     },
     {
+      "name_ko": "코가네 랑",
+      "name_en": "Cogane Rang",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-09 15:33",
+      "observed_min": 1.1,
+      "n_points": 2,
+      "peak_ccu": 1722,
+      "avg_ccu": 1576,
+      "title": "랑이와찌",
+      "category": "talk"
+    },
+    {
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
@@ -17373,18 +17385,6 @@
       "category": "리스토리: 칠 일렉트로닉스 리페어스"
     },
     {
-      "name_ko": "시라유키 히나",
-      "name_en": "Shirayuki Hina",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-08-13 21:31",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 1700,
-      "avg_ccu": 1700,
-      "title": "방제모",
-      "category": "talk"
-    },
-    {
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
@@ -17395,6 +17395,18 @@
       "avg_ccu": 1700,
       "title": "감기용가리의 늙크크 수리점...(´。＿。｀)",
       "category": "리스토리: 칠 일렉트로닉스 리페어스"
+    },
+    {
+      "name_ko": "시라유키 히나",
+      "name_en": "Shirayuki Hina",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-08-13 21:31",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 1700,
+      "avg_ccu": 1700,
+      "title": "방제모",
+      "category": "talk"
     },
     {
       "name_ko": "사키하네 후야",
@@ -17670,18 +17682,6 @@
       "peak_ccu": 1432,
       "avg_ccu": 1432,
       "title": "춘스터콜 하다가 너므잘해서 프로제의오면 어떡하지?",
-      "category": "talk"
-    },
-    {
-      "name_ko": "코가네 랑",
-      "name_en": "Cogane Rang",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-09 15:33",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 1431,
-      "avg_ccu": 1431,
-      "title": "랑이와찌",
       "category": "talk"
     },
     {
@@ -44602,6 +44602,10 @@
         [
           "2026-11-09 15:33",
           4477
+        ],
+        [
+          "2026-11-09 15:34",
+          4405
         ]
       ]
     },
@@ -58168,6 +58172,10 @@
         [
           "2026-11-09 15:33",
           1431
+        ],
+        [
+          "2026-11-09 15:34",
+          1722
         ]
       ]
     },

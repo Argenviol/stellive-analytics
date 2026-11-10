@@ -17,15 +17,15 @@
 
 | # | 프로젝트 | 최신 리포트 | 기준일 | 축적 | 차트 | 대시보드 |
 |---|---|---|---|---|---|---|
-| 1 | 멤버별 유튜브 채널 성과 | [REPORT1 - 20261108.md](01_member_channel_performance/REPORT1%20-%2020261108.md) | 2026-11-08 | 77개 | [8종](01_member_channel_performance/charts/) | [index.html](01_member_channel_performance/index.html) |
-| 2 | 커버곡 성과 랭킹 | [REPORT2 - 20261108.md](02_cover_song_ranking/REPORT2%20-%2020261108.md) | 2026-11-08 | 77개 | [7종](02_cover_song_ranking/charts/) | [index.html](02_cover_song_ranking/index.html) |
-| 3 | 치지직 방송 패턴 | [REPORT3 - 20261108.md](03_chzzk_stream_pattern/REPORT3%20-%2020261108.md) | 2026-11-08 | 78개 | [8종](03_chzzk_stream_pattern/charts/) | [index.html](03_chzzk_stream_pattern/index.html) |
+| 1 | 멤버별 유튜브 채널 성과 | [REPORT1 - 20261110.md](01_member_channel_performance/REPORT1%20-%2020261110.md) | 2026-11-10 | 78개 | [8종](01_member_channel_performance/charts/) | [index.html](01_member_channel_performance/index.html) |
+| 2 | 커버곡 성과 랭킹 | [REPORT2 - 20261110.md](02_cover_song_ranking/REPORT2%20-%2020261110.md) | 2026-11-10 | 78개 | [7종](02_cover_song_ranking/charts/) | [index.html](02_cover_song_ranking/index.html) |
+| 3 | 치지직 방송 패턴 | [REPORT3 - 20261110.md](03_chzzk_stream_pattern/REPORT3%20-%2020261110.md) | 2026-11-10 | 79개 | [8종](03_chzzk_stream_pattern/charts/) | [index.html](03_chzzk_stream_pattern/index.html) |
 | 4 | 키리누키(2차창작) 생태계 | [REPORT.md](04_kirinuki_ecosystem/REPORT.md) | 2026-11-07 | — | [6종](04_kirinuki_ecosystem/charts/) | [index.html](04_kirinuki_ecosystem/index.html) |
 | 5 | 댓글 여론/감성 | [REPORT.md](05_comment_sentiment/REPORT.md) | 2026-11-07 | — | [4종](05_comment_sentiment/charts/) | [index.html](05_comment_sentiment/index.html) |
-| 6 | 경쟁사 비교 | [REPORT6 - 20261108.md](06_competitor_comparison/REPORT6%20-%2020261108.md) | 2026-11-08 | 78개 | [6종](06_competitor_comparison/charts/) | [index.html](06_competitor_comparison/index.html) |
-| 7 | 버추얼 크리에이터 시장 | [REPORT.md](07_market_analysis/REPORT.md) | 2026-11-08 | — | [5종](07_market_analysis/charts/) | [index.html](07_market_analysis/index.html) |
-| 8 | 동시시청자 시계열 | [REPORT8 - 20261108.md](08_live_viewership/REPORT8%20-%2020261108.md) | 2026-11-08 | 49개 | [4종](08_live_viewership/charts/) | [index.html](08_live_viewership/index.html) |
-| 12 | 이벤트 임팩트 | [REPORT12 - 20261108.md](12_event_impact/REPORT12%20-%2020261108.md) | 2026-11-08 | 8개 | [4종](12_event_impact/charts/) | [index.html](12_event_impact/index.html) |
+| 6 | 경쟁사 비교 | [REPORT6 - 20261110.md](06_competitor_comparison/REPORT6%20-%2020261110.md) | 2026-11-10 | 79개 | [6종](06_competitor_comparison/charts/) | [index.html](06_competitor_comparison/index.html) |
+| 7 | 버추얼 크리에이터 시장 | [REPORT.md](07_market_analysis/REPORT.md) | 2026-11-10 | — | [5종](07_market_analysis/charts/) | [index.html](07_market_analysis/index.html) |
+| 8 | 동시시청자 시계열 | [REPORT8 - 20261110.md](08_live_viewership/REPORT8%20-%2020261110.md) | 2026-11-10 | 50개 | [4종](08_live_viewership/charts/) | [index.html](08_live_viewership/index.html) |
+| 12 | 이벤트 임팩트 | [REPORT12 - 20261110.md](12_event_impact/REPORT12%20-%2020261110.md) | 2026-11-10 | 9개 | [4종](12_event_impact/charts/) | [index.html](12_event_impact/index.html) |
 
 프로젝트 9개 · 차트 52종 · 대시보드 9건.
 

@@ -74,7 +74,19 @@ jobs:
       # 차트 라벨이 전부 한글이다. 러너에는 한글 폰트가 없어서, 없으면 matplotlib 이
       # DejaVu Sans 로 폴백해 모든 글자가 □(tofu)로 렌더된다.
       - name: 한글 폰트 설치
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-nanum
+        run: |
+          installed=0
+          for attempt in 1 2 3; do
+            if sudo apt-get update -qq && sudo apt-get install -y -qq fonts-nanum; then
+              installed=1
+              break
+            fi
+            echo "폰트 설치 실패 ($attempt/3)"
+            if [ "$attempt" -lt 3 ]; then sleep 15; fi
+          done
+          if [ "$installed" -eq 0 ]; then
+            echo "::warning::한글 폰트 설치 실패 — 차트 글자가 깨질 수 있지만 수집은 계속합니다."
+          fi
 
       # 체크아웃은 큐에 들어간 시점의 sha 다(위 2026-09-08 메모). 큐에서 기다리는 동안
       # 앞 잡이 밀어 넣은 커밋 위에 올라서야 첫 rebase 가 충돌하지 않는다.

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-11T04:18:01.062861+00:00",
-    "n_snapshots": 127420,
+    "fetched_at": "2026-11-11T04:28:23.637374+00:00",
+    "n_snapshots": 127435,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-11T04:18:01.062861+00:00"
+      "2026-11-11T04:28:23.637374+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 116563,
-    "n_timepoints": 10185,
-    "span_hours": 2182.37,
-    "observed_hours": 1742.83,
+    "n_snapshots": 116577,
+    "n_timepoints": 10186,
+    "span_hours": 2182.55,
+    "observed_hours": 1743.01,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
     "n_live_rows": 26668,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-11T04:18:01.062861+00:00"
+    "last": "2026-11-11T04:28:23.637374+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,14 +31,14 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 180642,
-      "follower_delta": 139434,
-      "follower_per_day": 4969.5,
+      "followers": 180646,
+      "follower_delta": 139438,
+      "follower_per_day": 4968.4,
       "n_sessions": 22,
       "n_live_points": 631,
       "peak_ccu": 79149,
       "avg_ccu": 14923,
-      "ccu_per_1k_followers": 438.15
+      "ccu_per_1k_followers": 438.14
     },
     {
       "rank": 2,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 142777,
       "follower_delta": 102609,
-      "follower_per_day": 3657.0,
+      "follower_per_day": 3656.1,
       "n_sessions": 23,
       "n_live_points": 892,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 142529,
       "follower_delta": 102412,
-      "follower_per_day": 3650.0,
+      "follower_per_day": 3649.1,
       "n_sessions": 22,
       "n_live_points": 777,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 157813,
-      "follower_delta": 118655,
-      "follower_per_day": 4228.9,
+      "followers": 157816,
+      "follower_delta": 118658,
+      "follower_per_day": 4227.9,
       "n_sessions": 25,
       "n_live_points": 779,
       "peak_ccu": 60712,
       "avg_ccu": 16524,
-      "ccu_per_1k_followers": 384.71
+      "ccu_per_1k_followers": 384.7
     },
     {
       "rank": 5,

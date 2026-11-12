@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-12T06:01:04.740902+00:00",
-    "n_snapshots": 128800,
+    "fetched_at": "2026-11-12T06:11:25.797499+00:00",
+    "n_snapshots": 128815,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-12T06:01:04.740902+00:00"
+      "2026-11-12T06:11:25.797499+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 117851,
-    "n_timepoints": 10277,
-    "span_hours": 2208.09,
-    "observed_hours": 1758.8,
+    "n_snapshots": 117865,
+    "n_timepoints": 10278,
+    "span_hours": 2208.26,
+    "observed_hours": 1758.97,
     "coverage_ratio": 0.797,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 26970,
+    "n_live_rows": 26971,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-12T06:01:04.740902+00:00"
+    "last": "2026-11-12T06:11:25.797499+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 181275,
-      "follower_delta": 140067,
-      "follower_per_day": 4808.4,
+      "followers": 181277,
+      "follower_delta": 140069,
+      "follower_per_day": 4807.3,
       "n_sessions": 23,
       "n_live_points": 663,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 143379,
       "follower_delta": 103211,
-      "follower_per_day": 3543.2,
+      "follower_per_day": 3542.3,
       "n_sessions": 24,
       "n_live_points": 924,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 142987,
       "follower_delta": 102870,
-      "follower_per_day": 3531.5,
+      "follower_per_day": 3530.6,
       "n_sessions": 23,
       "n_live_points": 801,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 158811,
-      "follower_delta": 119653,
-      "follower_per_day": 4107.6,
+      "followers": 158812,
+      "follower_delta": 119654,
+      "follower_per_day": 4106.6,
       "n_sessions": 26,
       "n_live_points": 782,
       "peak_ccu": 60712,
@@ -87,8 +87,8 @@
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 182546,
-      "follower_delta": 25805,
+      "followers": 182549,
+      "follower_delta": 25808,
       "follower_per_day": 280.5,
       "n_sessions": 98,
       "n_live_points": 1753,
@@ -103,9 +103,9 @@
       "unit": "UNIVERSE",
       "followers": 281452,
       "follower_delta": 26126,
-      "follower_per_day": 284.0,
+      "follower_per_day": 283.9,
       "n_sessions": 162,
-      "n_live_points": 2976,
+      "n_live_points": 2977,
       "peak_ccu": 38237,
       "avg_ccu": 5409,
       "ccu_per_1k_followers": 135.86
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 236057,
-      "follower_delta": 26722,
+      "followers": 236056,
+      "follower_delta": 26721,
       "follower_per_day": 290.4,
       "n_sessions": 164,
       "n_live_points": 2973,
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 231520,
-      "follower_delta": 21701,
+      "followers": 231521,
+      "follower_delta": 21702,
       "follower_per_day": 235.9,
       "n_sessions": 144,
       "n_live_points": 1849,
@@ -143,8 +143,8 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 237353,
-      "follower_delta": 29927,
+      "followers": 237354,
+      "follower_delta": 29928,
       "follower_per_day": 325.3,
       "n_sessions": 136,
       "n_live_points": 2310,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 278987,
-      "follower_delta": 26085,
+      "followers": 278988,
+      "follower_delta": 26086,
       "follower_per_day": 283.5,
       "n_sessions": 117,
       "n_live_points": 1810,
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 323028,
-      "follower_delta": 21108,
+      "followers": 323030,
+      "follower_delta": 21110,
       "follower_per_day": 229.4,
       "n_sessions": 140,
       "n_live_points": 2608,
@@ -6921,6 +6921,18 @@
       "category": "talk"
     },
     {
+      "name_ko": "아라하시 타비",
+      "name_en": "Arahashi Tabi",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-11-12 13:28",
+      "observed_min": 103.2,
+      "n_points": 11,
+      "peak_ccu": 4817,
+      "avg_ccu": 3429,
+      "title": "[자낳대26:로블록스] 진짜 오늘부터 대회임. ",
+      "category": "로블록스"
+    },
+    {
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
@@ -6996,18 +7008,6 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "start_kst": "2026-10-18 20:37",
-      "observed_min": 486.5,
-      "n_points": 50,
-      "peak_ccu": 4800,
-      "avg_ccu": 3996,
-      "title": "러너리그 공식 스크림 \n",
-      "category": "오버워치"
-    },
-    {
-      "name_ko": "아야츠노 유니",
-      "name_en": "Ayatsuno Yuni",
-      "unit": "EVERYS",
       "start_kst": "2026-08-22 18:47",
       "observed_min": 21.9,
       "n_points": 2,
@@ -7015,6 +7015,18 @@
       "avg_ccu": 4497,
       "title": "바하 2 처음 헤보기 !!!!!!!!!!!!!",
       "category": "바이오하자드 RE:2"
+    },
+    {
+      "name_ko": "아야츠노 유니",
+      "name_en": "Ayatsuno Yuni",
+      "unit": "EVERYS",
+      "start_kst": "2026-10-18 20:37",
+      "observed_min": 486.5,
+      "n_points": 50,
+      "peak_ccu": 4800,
+      "avg_ccu": 3996,
+      "title": "러너리그 공식 스크림 \n",
+      "category": "오버워치"
     },
     {
       "name_ko": "아카네 리제",
@@ -7161,18 +7173,6 @@
       "category": "R.E.P.O."
     },
     {
-      "name_ko": "사키하네 후야",
-      "name_en": "Sakihane Huya",
-      "unit": "EVERYS",
-      "start_kst": "2026-09-03 22:37",
-      "observed_min": 122.8,
-      "n_points": 13,
-      "peak_ccu": 4734,
-      "avg_ccu": 4190,
-      "title": "용가리 스텔섭 입장",
-      "category": "마인크래프트"
-    },
-    {
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
@@ -7183,6 +7183,18 @@
       "avg_ccu": 4734,
       "title": "삐부님과 함께하는 스텔라이브 데바데 ",
       "category": "데드 바이 데이라이트"
+    },
+    {
+      "name_ko": "사키하네 후야",
+      "name_en": "Sakihane Huya",
+      "unit": "EVERYS",
+      "start_kst": "2026-09-03 22:37",
+      "observed_min": 122.8,
+      "n_points": 13,
+      "peak_ccu": 4734,
+      "avg_ccu": 4190,
+      "title": "용가리 스텔섭 입장",
+      "category": "마인크래프트"
     },
     {
       "name_ko": "유즈하 리코",
@@ -7197,18 +7209,6 @@
       "category": "talk"
     },
     {
-      "name_ko": "텐코 시부키",
-      "name_en": "Tenko Shibuki",
-      "unit": "CLICHE",
-      "start_kst": "2026-08-17 20:57",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 4731,
-      "avg_ccu": 4731,
-      "title": "클리셰걷고걷고걷고걷고걷고걷고걷고걷고걷고걷는날",
-      "category": "빅 워크"
-    },
-    {
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
@@ -7219,6 +7219,18 @@
       "avg_ccu": 4731,
       "title": "로또에당첨된다면",
       "category": "음악/노래"
+    },
+    {
+      "name_ko": "텐코 시부키",
+      "name_en": "Tenko Shibuki",
+      "unit": "CLICHE",
+      "start_kst": "2026-08-17 20:57",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 4731,
+      "avg_ccu": 4731,
+      "title": "클리셰걷고걷고걷고걷고걷고걷고걷고걷고걷고걷는날",
+      "category": "빅 워크"
     },
     {
       "name_ko": "텐코 시부키",
@@ -7387,18 +7399,6 @@
       "avg_ccu": 4672,
       "title": "바하 2 처음 헤보기 2 !!!!!",
       "category": "바이오하자드 RE:2"
-    },
-    {
-      "name_ko": "아라하시 타비",
-      "name_en": "Arahashi Tabi",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-11-12 13:28",
-      "observed_min": 92.9,
-      "n_points": 10,
-      "peak_ccu": 4670,
-      "avg_ccu": 3291,
-      "title": "[자낳대26:로블록스] 진짜 오늘부터 대회임. ",
-      "category": "로블록스"
     },
     {
       "name_ko": "아야츠노 유니",
@@ -45810,6 +45810,10 @@
         [
           "2026-11-12 15:01",
           4625
+        ],
+        [
+          "2026-11-12 15:11",
+          4817
         ]
       ]
     },

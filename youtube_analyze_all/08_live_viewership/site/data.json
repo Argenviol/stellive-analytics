@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-12T21:37:57.690669+00:00",
-    "n_snapshots": 129700,
+    "fetched_at": "2026-11-12T21:48:19.031278+00:00",
+    "n_snapshots": 129715,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-12T21:37:57.690669+00:00"
+      "2026-11-12T21:48:19.031278+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 118691,
-    "n_timepoints": 10337,
-    "span_hours": 2223.71,
-    "observed_hours": 1769.19,
+    "n_snapshots": 118705,
+    "n_timepoints": 10338,
+    "span_hours": 2223.88,
+    "observed_hours": 1769.37,
     "coverage_ratio": 0.796,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 27294,
+    "n_live_rows": 27295,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-12T21:37:57.690669+00:00"
+    "last": "2026-11-12T21:48:19.031278+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 181731,
       "follower_delta": 140523,
-      "follower_per_day": 4718.7,
+      "follower_per_day": 4717.5,
       "n_sessions": 25,
       "n_live_points": 708,
       "peak_ccu": 79149,
@@ -45,23 +45,23 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 143825,
-      "follower_delta": 103657,
-      "follower_per_day": 3480.7,
+      "followers": 143830,
+      "follower_delta": 103662,
+      "follower_per_day": 3480.1,
       "n_sessions": 27,
-      "n_live_points": 970,
+      "n_live_points": 971,
       "peak_ccu": 67950,
-      "avg_ccu": 6469,
-      "ccu_per_1k_followers": 472.45
+      "avg_ccu": 6467,
+      "ccu_per_1k_followers": 472.43
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 143317,
-      "follower_delta": 103200,
-      "follower_per_day": 3465.4,
+      "followers": 143318,
+      "follower_delta": 103201,
+      "follower_per_day": 3464.6,
       "n_sessions": 25,
       "n_live_points": 841,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 159513,
-      "follower_delta": 120355,
-      "follower_per_day": 4041.4,
+      "followers": 159514,
+      "follower_delta": 120356,
+      "follower_per_day": 4040.5,
       "n_sessions": 28,
       "n_live_points": 817,
       "peak_ccu": 60712,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 279061,
-      "follower_delta": 26159,
+      "followers": 279062,
+      "follower_delta": 26160,
       "follower_per_day": 282.3,
       "n_sessions": 118,
       "n_live_points": 1813,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 244506,
-      "follower_delta": 25406,
+      "followers": 244507,
+      "follower_delta": 25407,
       "follower_per_day": 274.2,
       "n_sessions": 135,
       "n_live_points": 2083,
@@ -6525,16 +6525,16 @@
       "category": "Grand Theft Auto V"
     },
     {
-      "name_ko": "아라하시 타비",
-      "name_en": "Arahashi Tabi",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-08-17 21:59",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 4948,
-      "avg_ccu": 4948,
-      "title": "백만년만에 유니버스 합방",
-      "category": "갬블 위드 유어 프렌즈"
+      "name_ko": "코가네 랑",
+      "name_en": "Cogane Rang",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-13 05:35",
+      "observed_min": 72.5,
+      "n_points": 8,
+      "peak_ccu": 4953,
+      "avg_ccu": 4448,
+      "title": "건실하게 굴파는 호랑이.",
+      "category": "마인크래프트"
     },
     {
       "name_ko": "유즈하 리코",
@@ -6547,6 +6547,18 @@
       "avg_ccu": 2990,
       "title": "[떠비큐어] 이제 모니터 키고 할게요",
       "category": "이터널 리턴"
+    },
+    {
+      "name_ko": "아라하시 타비",
+      "name_en": "Arahashi Tabi",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-08-17 21:59",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 4948,
+      "avg_ccu": 4948,
+      "title": "백만년만에 유니버스 합방",
+      "category": "갬블 위드 유어 프렌즈"
     },
     {
       "name_ko": "텐코 시부키",
@@ -6609,18 +6621,6 @@
       "category": "talk"
     },
     {
-      "name_ko": "네네코 마시로",
-      "name_en": "Neneko Mashiro",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-11-08 16:53",
-      "observed_min": 268.1,
-      "n_points": 27,
-      "peak_ccu": 4934,
-      "avg_ccu": 3668,
-      "title": "헨신 데키루우우우우우우우우우",
-      "category": "talk"
-    },
-    {
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
@@ -6631,6 +6631,18 @@
       "avg_ccu": 3593,
       "title": "청운강, 멋지군",
       "category": "Grand Theft Auto V"
+    },
+    {
+      "name_ko": "네네코 마시로",
+      "name_en": "Neneko Mashiro",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-11-08 16:53",
+      "observed_min": 268.1,
+      "n_points": 27,
+      "peak_ccu": 4934,
+      "avg_ccu": 3668,
+      "title": "헨신 데키루우우우우우우우우우",
+      "category": "talk"
     },
     {
       "name_ko": "텐코 시부키",
@@ -6655,18 +6667,6 @@
       "avg_ccu": 4914,
       "title": "고독방송..",
       "category": "고독방송:심"
-    },
-    {
-      "name_ko": "코가네 랑",
-      "name_en": "Cogane Rang",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-13 05:35",
-      "observed_min": 62.2,
-      "n_points": 7,
-      "peak_ccu": 4911,
-      "avg_ccu": 4376,
-      "title": "건실하게 굴파는 호랑이.",
-      "category": "마인크래프트"
     },
     {
       "name_ko": "텐코 시부키",
@@ -60652,6 +60652,10 @@
         [
           "2026-11-13 06:37",
           4911
+        ],
+        [
+          "2026-11-13 06:48",
+          4953
         ]
       ]
     },

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-12T23:42:16.448310+00:00",
-    "n_snapshots": 129880,
+    "fetched_at": "2026-11-12T23:52:37.741282+00:00",
+    "n_snapshots": 129895,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-12T23:42:16.448310+00:00"
+      "2026-11-12T23:52:37.741282+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 118859,
-    "n_timepoints": 10349,
-    "span_hours": 2225.78,
-    "observed_hours": 1771.26,
+    "n_snapshots": 118873,
+    "n_timepoints": 10350,
+    "span_hours": 2225.95,
+    "observed_hours": 1771.44,
     "coverage_ratio": 0.796,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 27306,
+    "n_live_rows": 27307,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-12T23:42:16.448310+00:00"
+    "last": "2026-11-12T23:52:37.741282+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,28 +31,28 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 181749,
-      "follower_delta": 140541,
-      "follower_per_day": 4705.6,
+      "followers": 181750,
+      "follower_delta": 140542,
+      "follower_per_day": 4704.5,
       "n_sessions": 25,
       "n_live_points": 708,
       "peak_ccu": 79149,
       "avg_ccu": 14328,
-      "ccu_per_1k_followers": 435.49
+      "ccu_per_1k_followers": 435.48
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 143897,
-      "follower_delta": 103729,
-      "follower_per_day": 3473.1,
+      "followers": 143905,
+      "follower_delta": 103737,
+      "follower_per_day": 3472.5,
       "n_sessions": 27,
-      "n_live_points": 982,
+      "n_live_points": 983,
       "peak_ccu": 67950,
-      "avg_ccu": 6458,
-      "ccu_per_1k_followers": 472.21
+      "avg_ccu": 6457,
+      "ccu_per_1k_followers": 472.19
     },
     {
       "rank": 3,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 143334,
       "follower_delta": 103217,
-      "follower_per_day": 3455.9,
+      "follower_per_day": 3455.1,
       "n_sessions": 25,
       "n_live_points": 841,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 159533,
-      "follower_delta": 120375,
-      "follower_per_day": 4030.4,
+      "followers": 159534,
+      "follower_delta": 120376,
+      "follower_per_day": 4029.5,
       "n_sessions": 28,
       "n_live_points": 817,
       "peak_ccu": 60712,
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 236131,
-      "follower_delta": 26796,
+      "followers": 236132,
+      "follower_delta": 26797,
       "follower_per_day": 288.9,
       "n_sessions": 164,
       "n_live_points": 2973,
@@ -131,7 +131,7 @@
       "unit": "UNIVERSE",
       "followers": 231582,
       "follower_delta": 21763,
-      "follower_per_day": 234.7,
+      "follower_per_day": 234.6,
       "n_sessions": 144,
       "n_live_points": 1849,
       "peak_ccu": 28071,
@@ -159,7 +159,7 @@
       "unit": "UNIVERSE",
       "followers": 279069,
       "follower_delta": 26167,
-      "follower_per_day": 282.2,
+      "follower_per_day": 282.1,
       "n_sessions": 118,
       "n_live_points": 1813,
       "peak_ccu": 18587,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 244511,
-      "follower_delta": 25411,
+      "followers": 244512,
+      "follower_delta": 25412,
       "follower_per_day": 274.0,
       "n_sessions": 135,
       "n_live_points": 2083,
@@ -4129,10 +4129,10 @@
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
       "start_kst": "2026-11-13 05:35",
-      "observed_min": 186.5,
-      "n_points": 19,
+      "observed_min": 196.8,
+      "n_points": 20,
       "peak_ccu": 6151,
-      "avg_ccu": 5119,
+      "avg_ccu": 5169,
       "title": "건실하게 굴파는 호랑이.",
       "category": "마인크래프트"
     },
@@ -60700,6 +60700,10 @@
         [
           "2026-11-13 08:42",
           6070
+        ],
+        [
+          "2026-11-13 08:52",
+          6126
         ]
       ]
     },

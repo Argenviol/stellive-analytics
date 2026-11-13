@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-13T22:28:45.632869+00:00",
-    "n_snapshots": 131575,
+    "fetched_at": "2026-11-13T22:29:45.572944+00:00",
+    "n_snapshots": 131590,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-13T22:28:45.632869+00:00"
+      "2026-11-13T22:29:45.572944+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 120441,
-    "n_timepoints": 10462,
-    "span_hours": 2248.55,
-    "observed_hours": 1790.95,
-    "coverage_ratio": 0.796,
+    "n_snapshots": 120455,
+    "n_timepoints": 10463,
+    "span_hours": 2248.57,
+    "observed_hours": 1791.12,
+    "coverage_ratio": 0.797,
     "largest_gap_hours": 11.3,
     "n_live_rows": 27583,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-13T22:28:45.632869+00:00"
+    "last": "2026-11-13T22:29:45.572944+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 182220,
       "follower_delta": 141012,
-      "follower_per_day": 4576.0,
+      "follower_per_day": 4575.9,
       "n_sessions": 26,
       "n_live_points": 738,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 144166,
       "follower_delta": 103998,
-      "follower_per_day": 3374.9,
+      "follower_per_day": 3374.8,
       "n_sessions": 27,
       "n_live_points": 985,
       "peak_ccu": 67950,

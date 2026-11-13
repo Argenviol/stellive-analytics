@@ -1,7 +1,7 @@
 -- member_metrics 데이터 (14 rows)
 
-INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (1, '토키노 메리', 'Tokino Mary', 'ABYSS', 182220, 141012, 4576.0, 26, 738, 79149, 14144, 434.36);
-INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (2, '코가네 랑', 'Cogane Rang', 'ABYSS', 144166, 103998, 3374.9, 27, 985, 67950, 6456, 471.33);
+INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (1, '토키노 메리', 'Tokino Mary', 'ABYSS', 182220, 141012, 4575.9, 26, 738, 79149, 14144, 434.36);
+INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (2, '코가네 랑', 'Cogane Rang', 'ABYSS', 144166, 103998, 3374.8, 27, 985, 67950, 6456, 471.33);
 INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (3, '시즈키 토아', 'Shizuki Toa', 'ABYSS', 143692, 103575, 3361.1, 27, 877, 62637, 7409, 435.91);
 INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (4, '하나요 히요리', 'Hanayo Hiyori', 'ABYSS', 159993, 120835, 3921.2, 28, 817, 60712, 16322, 379.47);
 INSERT INTO member_metrics (rank, name_ko, name_en, unit, followers, follower_delta, follower_per_day, n_sessions, n_live_points, peak_ccu, avg_ccu, ccu_per_1k_followers) VALUES (5, '사키하네 후야', 'Sakihane Huya', 'EVERYS', 182812, 26071, 278.3, 100, 1786, 38402, 2454, 210.06);

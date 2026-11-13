@@ -1,7 +1,7 @@
 # 인수인계서
 
 작업을 이어받는 사람(또는 다음 세션)을 위한 운영 문서입니다. 포트폴리오 소개는 [`README.md`](README.md),
-요구사항은 [`PRD.md`](PRD.md), 작업 기준은 [`CLAUDE.md`](CLAUDE.md). **최종 갱신 2026-11-06.**
+요구사항은 [`PRD.md`](PRD.md), 작업 기준은 [`CLAUDE.md`](CLAUDE.md). **최종 갱신 2026-11-13.**
 
 이 문서만 읽고 이어서 할 수 있게 쓴다. 상태 절은 **현재 기준으로 고쳐 쓰고**(덧붙이지 않음), 맨 아래
 변경 이력에는 **그날 달라진 것만** 한 줄 더한다.
@@ -126,6 +126,7 @@
 
 | 날짜 | 달라진 것 |
 |---|---|
+| 2026-11-13 | `origin_of_viewers` 의 '기존 팬' 을 4기 겹침과 따로 셈(둘 다 칸 추가). 5~6% → 40~45%(하한) 로 바로잡음, README 문구 수정 |
 | 2026-11-07 | 수집·분석 분리(`collect/`·`analysis/`)와 워크플로 3개(`collect-community`·`collect-vtubers`·`analyze-community`), 디시·채팅·전체 버튜버·애니 수집기, 분석 7종(`origin_of_viewers`·`dc_reaction`·`hypotheses`·`shorts_formats`·`shorts_first_movers`·`cover_reaction`·`cover_watch`), `collect-shorts`·`collect-live-chat` 추가. 다시보기 채팅 포화(초당 ~20건) 확인 |
 | 2026-11-07 | 삭제한 호요·DART·커머스 문구가 남은 12 날짜별 리포트 60개를 `결과물/_이전/12_event_impact/` 에서 지움(이 프로젝트만 예외 — 옛 문구가 그대로 남아 있어서). 이 날까지 12 리포트는 11/06 판 |
 | 2026-11-06 | 09 DART·10 게임·11 팬 커머스와 그 앱 페이지·monthly 그룹·`DART_API_KEY` 삭제, 12 이벤트 임팩트에서 호요·DART·커머스 렌즈 제거(15→12개 렌즈), 게임 리포트 폐지. `자료_점검_및_분석계획.md` 추가 |

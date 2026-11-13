@@ -7,10 +7,11 @@
   collect/data/chatters/<video_no>.txt   방송별 채팅·후원 참여자 해시 (collect/chzzk_chat.py)
   collect/data/chat_videos.csv           방송별 채팅·후원 합계
 
-방법 — 채팅 참여자 겹침(overlap)으로 세 덩어리를 가른다.
-  ① 4기 사전 팔로워 이동 : 다른 4기 멤버의 데뷔 방송에도 채팅한 사람
-  ② 기존 스텔라이브 팬   : 비교군(기존 멤버의 데뷔 전 한 달 인기 방송)에서 채팅한 적 있는 사람
+방법 — 채팅 참여자 겹침(overlap)을 두 기준으로 따로 센다(서로 겹칠 수 있다).
+  ① 다른 4기 방송에도 보임 : 다른 4기 멤버의 데뷔 방송에도 채팅한 사람
+  ② 기존 스텔라이브 방송에도 보임 : 비교군(기존 멤버의 데뷔 전 인기 방송)에서 채팅한 적 있는 사람
   ③ 처음 보이는 사람     : 위 둘 어디서도 안 보인 사람
+  ①·②에 모두 해당하는 사람(both)도 따로 센다 — 기존 팬이면서 4기 방송을 같이 본 사람이다.
 한계(결론에 그대로 적는다):
   - 참여자는 채팅한 사람이지 시청자 전체가 아니다. 눈팅 시청자는 못 잰다.
   - 비교군은 멤버당 방송 N개 표본이라 ②는 하한, ③은 상한이다.
@@ -74,12 +75,14 @@ def main() -> int:
         me = users(r.video_no)
         others4 = set().union(*[users(v) for v in debut["video_no"] if v != r.video_no])
         a = me & others4
-        b = (me - a) & ctrl_users
+        b = me & ctrl_users
+        both = a & b
         c = me - a - b
         n = max(len(me), 1)
         rows.append({"name_ko": f"{r.name_ko} · {r.title[:14]}", "title": r.title, "chat_participants": len(me), "chats": r.chats,
-                     "donations": r.donations, "from_other_abyss": len(a), "existing_fans": len(b), "not_seen_elsewhere": len(c),
-                     "share_other_abyss": len(a) / n, "share_existing": len(b) / n, "share_new": len(c) / n})
+                     "donations": r.donations, "from_other_abyss": len(a), "existing_fans": len(b), "both": len(both), "not_seen_elsewhere": len(c),
+                     "share_other_abyss": len(a) / n, "share_existing": len(b) / n, "share_both": len(both) / n,
+                     "share_new": len(c) / n})
     res = pd.DataFrame(rows)
     res.to_csv(OUT / "origin_of_viewers.csv", index=False, encoding="utf-8-sig")
 
@@ -104,23 +107,26 @@ def main() -> int:
                  f"| {r.name_ko} | {r.first_seen:,} | {r.debut_start or '—'} | {r.d1 or '—'} | {r.d3 or '—'} | {r.d7 or '—'} | {r.d14 or '—'} | {r.latest:,} |")
     L += ["", f"4기 데뷔 전 기존 멤버 방송의 최고 피크는 {int(prev_peak):,}명이다(08 수집 기간).", "",
           "## 2. 채팅 참여자 겹침", "",
-          "| 방송 | 채팅 참여자 | 채팅 | 후원(건) | 다른 4기 방송에도 | 기존 스텔라이브 방송에도 | 표본 어디서도 처음 |", "|---|---|---|---|---|---|---|"]
+          "| 방송 | 채팅 참여자 | 채팅 | 후원(건) | 다른 4기 방송에도 | 기존 스텔라이브 방송에도 | 둘 다 | 표본 어디서도 처음 |", "|---|---|---|---|---|---|---|---|"]
     for r in res.itertuples():
         L.append(f"| {r.name_ko} | {r.chat_participants:,} | {r.chats:,} | {r.donations:,} | "
                  f"{r.from_other_abyss:,} ({r.share_other_abyss:.0%}) | {r.existing_fans:,} ({r.share_existing:.0%}) | "
+                 f"{r.both:,} ({r.share_both:.0%}) | "
                  f"**{r.not_seen_elsewhere:,} ({r.share_new:.0%})** |")
     solo = res[~res["title"].str.contains("단체")]
     gr = ft.assign(x=lambda d: d["debut_start"] / d["first_seen"])
     L += ["", "## 3. 숫자가 말하는 것", "",
           f"- 데뷔 방송 {len(solo)}개의 채팅 참여자 중 **{solo['share_other_abyss'].min():.0%}~{solo['share_other_abyss'].max():.0%}** 가 "
           "다른 4기 데뷔 방송에도 채팅했다 — 4기 네 명을 같이 보러 온 하나의 관객층이다.",
-          f"- 기존 스텔라이브 방송(비교군)에서도 보인 사람은 **{solo['share_existing'].min():.0%}~{solo['share_existing'].max():.0%}** 뿐이다"
-          "(하한 — 비교군이 표본이라 실제는 더 클 수 있다).",
+          f"- 기존 스텔라이브 방송(비교군)에서도 보인 사람은 **{solo['share_existing'].min():.0%}~{solo['share_existing'].max():.0%}** 이다"
+          f"(하한 — 비교군이 표본이라 실제는 더 클 수 있다). 전체의 {solo['share_both'].min():.0%}~{solo['share_both'].max():.0%} 는 다른 4기 방송에도 "
+          "채팅한 기존 방송 참여자다 — 기존 팬은 '4기 겹침' 칸 안에 섞여 있다.",
           f"- 4기 방송에만 보이는 사람은 {solo['share_new'].min():.0%}~{solo['share_new'].max():.0%} 이다.",
           f"- 데뷔 방송이 시작될 때 이미 팔로워가 수집 첫 시점의 {gr['x'].min():.1f}~{gr['x'].max():.1f}배였다 — 방송 전 티저 단계에서 쌓였다."]
     L += ["", "## 읽는 법과 한계", "",
           "- 참여자는 채팅·후원한 사람만이다. 눈팅 시청자는 이 자료로 못 잰다.",
           "- 비교군은 멤버당 방송 일부라 '기존 팬'은 하한, '처음 보임'은 상한이다.",
+          "- '다른 4기 방송에도'와 '기존 스텔라이브 방송에도'는 서로 겹칠 수 있다(둘 다 칸). 합이 100%를 넘을 수 있다.",
           "- 다시보기 채팅은 초당 약 20건까지만 저장된다. 4기 데뷔 방송은 모두 이 한도에 붙어 있어 참여자·채팅 수는 하한이고, 비율은 저장된 채팅 안에서의 값이다.",
           "- '처음 보임'은 스텔라이브 밖에서 왔다는 뜻이 아니다. 치지직의 다른 방송에서 넘어왔는지, 치지직 밖(유튜브·트위터·커뮤니티)에서 "
           "왔는지는 가를 수 없다 — 치지직 전체 방송 시청자 시계열이 없고(수집 시작 전), 유입 경로는 치지직이 공개하지 않는다.",

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-13T18:40:45.952328+00:00",
-    "n_snapshots": 131245,
+    "fetched_at": "2026-11-13T18:51:05.925385+00:00",
+    "n_snapshots": 131260,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-13T18:40:45.952328+00:00"
+      "2026-11-13T18:51:05.925385+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 120133,
-    "n_timepoints": 10440,
-    "span_hours": 2244.75,
-    "observed_hours": 1787.1,
+    "n_snapshots": 120147,
+    "n_timepoints": 10441,
+    "span_hours": 2244.92,
+    "observed_hours": 1787.27,
     "coverage_ratio": 0.796,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 27576,
+    "n_live_rows": 27577,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-13T18:40:45.952328+00:00"
+    "last": "2026-11-13T18:51:05.925385+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 182194,
-      "follower_delta": 140986,
-      "follower_per_day": 4598.8,
+      "followers": 182195,
+      "follower_delta": 140987,
+      "follower_per_day": 4597.8,
       "n_sessions": 26,
       "n_live_points": 738,
       "peak_ccu": 79149,
@@ -45,9 +45,9 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 144150,
-      "follower_delta": 103982,
-      "follower_per_day": 3391.8,
+      "followers": 144151,
+      "follower_delta": 103983,
+      "follower_per_day": 3391.0,
       "n_sessions": 27,
       "n_live_points": 985,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 143677,
       "follower_delta": 103560,
-      "follower_per_day": 3378.0,
+      "follower_per_day": 3377.2,
       "n_sessions": 27,
       "n_live_points": 877,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 159955,
-      "follower_delta": 120797,
-      "follower_per_day": 3940.3,
+      "followers": 159956,
+      "follower_delta": 120798,
+      "follower_per_day": 3939.4,
       "n_sessions": 28,
       "n_live_points": 817,
       "peak_ccu": 60712,
       "avg_ccu": 16322,
-      "ccu_per_1k_followers": 379.56
+      "ccu_per_1k_followers": 379.55
     },
     {
       "rank": 5,
@@ -101,8 +101,8 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 281713,
-      "follower_delta": 26387,
+      "followers": 281714,
+      "follower_delta": 26388,
       "follower_per_day": 282.1,
       "n_sessions": 164,
       "n_live_points": 3063,
@@ -143,8 +143,8 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 237655,
-      "follower_delta": 30229,
+      "followers": 237656,
+      "follower_delta": 30230,
       "follower_per_day": 323.2,
       "n_sessions": 139,
       "n_live_points": 2358,
@@ -171,14 +171,14 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 264301,
-      "follower_delta": 23184,
+      "followers": 264305,
+      "follower_delta": 23188,
       "follower_per_day": 247.9,
       "n_sessions": 143,
-      "n_live_points": 2705,
+      "n_live_points": 2706,
       "peak_ccu": 15159,
-      "avg_ccu": 5342,
-      "ccu_per_1k_followers": 57.36
+      "avg_ccu": 5343,
+      "ccu_per_1k_followers": 57.35
     },
     {
       "rank": 12,
@@ -213,9 +213,9 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 244613,
-      "follower_delta": 25513,
-      "follower_per_day": 272.8,
+      "followers": 244612,
+      "follower_delta": 25512,
+      "follower_per_day": 272.7,
       "n_sessions": 135,
       "n_live_points": 2083,
       "peak_ccu": 9414,
@@ -3625,10 +3625,10 @@
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
       "start_kst": "2026-11-14 01:57",
-      "observed_min": 103.6,
-      "n_points": 11,
+      "observed_min": 113.9,
+      "n_points": 12,
       "peak_ccu": 6699,
-      "avg_ccu": 6349,
+      "avg_ccu": 6338,
       "title": "아포칼립스 전문 스트리머 ",
       "category": "제드 존"
     },
@@ -114103,6 +114103,10 @@
         [
           "2026-11-14 03:40",
           6320
+        ],
+        [
+          "2026-11-14 03:51",
+          6218
         ]
       ]
     },

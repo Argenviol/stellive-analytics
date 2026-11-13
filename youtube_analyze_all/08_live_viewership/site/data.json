@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-12T23:52:37.741282+00:00",
-    "n_snapshots": 129895,
+    "fetched_at": "2026-11-13T00:02:58.797809+00:00",
+    "n_snapshots": 129910,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-12T23:52:37.741282+00:00"
+      "2026-11-13T00:02:58.797809+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 118873,
-    "n_timepoints": 10350,
-    "span_hours": 2225.95,
-    "observed_hours": 1771.44,
+    "n_snapshots": 118887,
+    "n_timepoints": 10351,
+    "span_hours": 2226.12,
+    "observed_hours": 1771.62,
     "coverage_ratio": 0.796,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 27307,
+    "n_live_rows": 27308,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-12T23:52:37.741282+00:00"
+    "last": "2026-11-13T00:02:58.797809+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 181750,
       "follower_delta": 140542,
-      "follower_per_day": 4704.5,
+      "follower_per_day": 4703.4,
       "n_sessions": 25,
       "n_live_points": 708,
       "peak_ccu": 79149,
@@ -45,14 +45,14 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 143905,
-      "follower_delta": 103737,
-      "follower_per_day": 3472.5,
+      "followers": 143911,
+      "follower_delta": 103743,
+      "follower_per_day": 3471.9,
       "n_sessions": 27,
-      "n_live_points": 983,
+      "n_live_points": 984,
       "peak_ccu": 67950,
       "avg_ccu": 6457,
-      "ccu_per_1k_followers": 472.19
+      "ccu_per_1k_followers": 472.17
     },
     {
       "rank": 3,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 143334,
       "follower_delta": 103217,
-      "follower_per_day": 3455.1,
+      "follower_per_day": 3454.3,
       "n_sessions": 25,
       "n_live_points": 841,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 159534,
-      "follower_delta": 120376,
-      "follower_per_day": 4029.5,
+      "followers": 159535,
+      "follower_delta": 120377,
+      "follower_per_day": 4028.6,
       "n_sessions": 28,
       "n_live_points": 817,
       "peak_ccu": 60712,
@@ -89,7 +89,7 @@
       "unit": "EVERYS",
       "followers": 182723,
       "follower_delta": 25982,
-      "follower_per_day": 280.2,
+      "follower_per_day": 280.1,
       "n_sessions": 100,
       "n_live_points": 1786,
       "peak_ccu": 38402,
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 231582,
-      "follower_delta": 21763,
+      "followers": 231583,
+      "follower_delta": 21764,
       "follower_per_day": 234.6,
       "n_sessions": 144,
       "n_live_points": 1849,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 279069,
-      "follower_delta": 26167,
+      "followers": 279070,
+      "follower_delta": 26168,
       "follower_per_day": 282.1,
       "n_sessions": 118,
       "n_live_points": 1813,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 264153,
-      "follower_delta": 23036,
+      "followers": 264154,
+      "follower_delta": 23037,
       "follower_per_day": 248.4,
       "n_sessions": 141,
       "n_live_points": 2665,
@@ -185,8 +185,8 @@
       "name_ko": "시라유키 히나",
       "name_en": "Shirayuki Hina",
       "unit": "UNIVERSE",
-      "followers": 254425,
-      "follower_delta": 17577,
+      "followers": 254426,
+      "follower_delta": 17578,
       "follower_per_day": 189.5,
       "n_sessions": 176,
       "n_live_points": 2806,
@@ -4005,6 +4005,18 @@
       "category": "리그 오브 레전드"
     },
     {
+      "name_ko": "코가네 랑",
+      "name_en": "Cogane Rang",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-13 05:35",
+      "observed_min": 207.2,
+      "n_points": 21,
+      "peak_ccu": 6251,
+      "avg_ccu": 5220,
+      "title": "건실하게 굴파는 호랑이.",
+      "category": "마인크래프트"
+    },
+    {
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
@@ -4123,18 +4135,6 @@
       "avg_ccu": 4997,
       "title": "드디어 미뤄뒀던 디비휴 하는 날입니다",
       "category": "talk"
-    },
-    {
-      "name_ko": "코가네 랑",
-      "name_en": "Cogane Rang",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-13 05:35",
-      "observed_min": 196.8,
-      "n_points": 20,
-      "peak_ccu": 6151,
-      "avg_ccu": 5169,
-      "title": "건실하게 굴파는 호랑이.",
-      "category": "마인크래프트"
     },
     {
       "name_ko": "아라하시 타비",
@@ -60704,6 +60704,10 @@
         [
           "2026-11-13 08:52",
           6126
+        ],
+        [
+          "2026-11-13 09:02",
+          6251
         ]
       ]
     },

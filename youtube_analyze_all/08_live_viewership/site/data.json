@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-13T18:51:05.925385+00:00",
-    "n_snapshots": 131260,
+    "fetched_at": "2026-11-13T19:01:26.793994+00:00",
+    "n_snapshots": 131275,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-13T18:51:05.925385+00:00"
+      "2026-11-13T19:01:26.793994+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 120147,
-    "n_timepoints": 10441,
-    "span_hours": 2244.92,
-    "observed_hours": 1787.27,
+    "n_snapshots": 120161,
+    "n_timepoints": 10442,
+    "span_hours": 2245.1,
+    "observed_hours": 1787.44,
     "coverage_ratio": 0.796,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 27577,
+    "n_live_rows": 27578,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-13T18:51:05.925385+00:00"
+    "last": "2026-11-13T19:01:26.793994+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 182195,
       "follower_delta": 140987,
-      "follower_per_day": 4597.8,
+      "follower_per_day": 4596.7,
       "n_sessions": 26,
       "n_live_points": 738,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 144151,
       "follower_delta": 103983,
-      "follower_per_day": 3391.0,
+      "follower_per_day": 3390.2,
       "n_sessions": 27,
       "n_live_points": 985,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 143677,
       "follower_delta": 103560,
-      "follower_per_day": 3377.2,
+      "follower_per_day": 3376.4,
       "n_sessions": 27,
       "n_live_points": 877,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 159956,
-      "follower_delta": 120798,
-      "follower_per_day": 3939.4,
+      "followers": 159958,
+      "follower_delta": 120800,
+      "follower_per_day": 3938.5,
       "n_sessions": 28,
       "n_live_points": 817,
       "peak_ccu": 60712,
@@ -87,8 +87,8 @@
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 182809,
-      "follower_delta": 26068,
+      "followers": 182810,
+      "follower_delta": 26069,
       "follower_per_day": 278.7,
       "n_sessions": 100,
       "n_live_points": 1786,
@@ -101,8 +101,8 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 281714,
-      "follower_delta": 26388,
+      "followers": 281716,
+      "follower_delta": 26390,
       "follower_per_day": 282.1,
       "n_sessions": 164,
       "n_live_points": 3063,
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 236314,
-      "follower_delta": 26979,
+      "followers": 236316,
+      "follower_delta": 26981,
       "follower_per_day": 288.4,
       "n_sessions": 165,
       "n_live_points": 2997,
@@ -175,7 +175,7 @@
       "follower_delta": 23188,
       "follower_per_day": 247.9,
       "n_sessions": 143,
-      "n_live_points": 2706,
+      "n_live_points": 2707,
       "peak_ccu": 15159,
       "avg_ccu": 5343,
       "ccu_per_1k_followers": 57.35
@@ -201,7 +201,7 @@
       "unit": "EVERYS",
       "followers": 323365,
       "follower_delta": 21445,
-      "follower_per_day": 229.3,
+      "follower_per_day": 229.2,
       "n_sessions": 144,
       "n_live_points": 2665,
       "peak_ccu": 12362,
@@ -213,14 +213,14 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 244612,
-      "follower_delta": 25512,
-      "follower_per_day": 272.7,
+      "followers": 244615,
+      "follower_delta": 25515,
+      "follower_per_day": 272.8,
       "n_sessions": 135,
       "n_live_points": 2083,
       "peak_ccu": 9414,
       "avg_ccu": 3273,
-      "ccu_per_1k_followers": 38.49
+      "ccu_per_1k_followers": 38.48
     }
   ],
   "sessions": [
@@ -3625,10 +3625,10 @@
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
       "start_kst": "2026-11-14 01:57",
-      "observed_min": 113.9,
-      "n_points": 12,
+      "observed_min": 124.2,
+      "n_points": 13,
       "peak_ccu": 6699,
-      "avg_ccu": 6338,
+      "avg_ccu": 6326,
       "title": "아포칼립스 전문 스트리머 ",
       "category": "제드 존"
     },
@@ -114107,6 +114107,10 @@
         [
           "2026-11-14 03:51",
           6218
+        ],
+        [
+          "2026-11-14 04:01",
+          6183
         ]
       ]
     },

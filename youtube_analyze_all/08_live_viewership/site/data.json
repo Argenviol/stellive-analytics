@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-14T18:52:32.250380+00:00",
-    "n_snapshots": 133300,
+    "fetched_at": "2026-11-14T19:02:56.803623+00:00",
+    "n_snapshots": 133315,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-14T18:52:32.250380+00:00"
+      "2026-11-14T19:02:56.803623+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 122051,
-    "n_timepoints": 10577,
-    "span_hours": 2268.95,
-    "observed_hours": 1810.92,
+    "n_snapshots": 122065,
+    "n_timepoints": 10578,
+    "span_hours": 2269.12,
+    "observed_hours": 1811.09,
     "coverage_ratio": 0.798,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28089,
+    "n_live_rows": 28091,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-14T18:52:32.250380+00:00"
+    "last": "2026-11-14T19:02:56.803623+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,56 +31,56 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 182874,
-      "follower_delta": 141666,
-      "follower_per_day": 4473.9,
+      "followers": 182879,
+      "follower_delta": 141671,
+      "follower_per_day": 4473.0,
       "n_sessions": 28,
       "n_live_points": 787,
       "peak_ccu": 79149,
       "avg_ccu": 13860,
-      "ccu_per_1k_followers": 432.81
+      "ccu_per_1k_followers": 432.79
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 144837,
-      "follower_delta": 104669,
-      "follower_per_day": 3305.5,
+      "followers": 144843,
+      "follower_delta": 104675,
+      "follower_per_day": 3304.9,
       "n_sessions": 29,
       "n_live_points": 1046,
       "peak_ccu": 67950,
       "avg_ccu": 6425,
-      "ccu_per_1k_followers": 469.15
+      "ccu_per_1k_followers": 469.13
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 144249,
-      "follower_delta": 104132,
-      "follower_per_day": 3288.5,
+      "followers": 144266,
+      "follower_delta": 104149,
+      "follower_per_day": 3288.3,
       "n_sessions": 29,
-      "n_live_points": 939,
+      "n_live_points": 940,
       "peak_ccu": 62637,
-      "avg_ccu": 7222,
-      "ccu_per_1k_followers": 434.23
+      "avg_ccu": 7221,
+      "ccu_per_1k_followers": 434.18
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 160922,
-      "follower_delta": 121764,
-      "follower_per_day": 3845.3,
+      "followers": 160930,
+      "follower_delta": 121772,
+      "follower_per_day": 3844.7,
       "n_sessions": 30,
       "n_live_points": 838,
       "peak_ccu": 60712,
       "avg_ccu": 16193,
-      "ccu_per_1k_followers": 377.28
+      "ccu_per_1k_followers": 377.26
     },
     {
       "rank": 5,
@@ -117,7 +117,7 @@
       "unit": "CLICHE",
       "followers": 236511,
       "follower_delta": 27176,
-      "follower_per_day": 287.5,
+      "follower_per_day": 287.4,
       "n_sessions": 165,
       "n_live_points": 2997,
       "peak_ccu": 33491,
@@ -159,7 +159,7 @@
       "unit": "UNIVERSE",
       "followers": 279323,
       "follower_delta": 26421,
-      "follower_per_day": 279.5,
+      "follower_per_day": 279.4,
       "n_sessions": 119,
       "n_live_points": 1826,
       "peak_ccu": 18587,
@@ -199,11 +199,11 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 323578,
-      "follower_delta": 21658,
+      "followers": 323583,
+      "follower_delta": 21663,
       "follower_per_day": 229.1,
       "n_sessions": 146,
-      "n_live_points": 2715,
+      "n_live_points": 2716,
       "peak_ccu": 12362,
       "avg_ccu": 3514,
       "ccu_per_1k_followers": 38.2
@@ -1705,10 +1705,10 @@
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
       "start_kst": "2026-11-15 01:16",
-      "observed_min": 155.8,
-      "n_points": 16,
+      "observed_min": 166.2,
+      "n_points": 17,
       "peak_ccu": 9515,
-      "avg_ccu": 6489,
+      "avg_ccu": 6501,
       "title": "언더테일 불살모드를 해부쟈",
       "category": "언더테일"
     },
@@ -4345,10 +4345,10 @@
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
       "start_kst": "2026-11-15 01:16",
-      "observed_min": 155.8,
-      "n_points": 16,
+      "observed_min": 166.2,
+      "n_points": 17,
       "peak_ccu": 6127,
-      "avg_ccu": 4453,
+      "avg_ccu": 4387,
       "title": " [죵쬐컵] 유찰 원딜 어디까지 할수있을까,,,???? ",
       "category": "리그 오브 레전드"
     },
@@ -58075,6 +58075,10 @@
         [
           "2026-11-15 03:52",
           2879
+        ],
+        [
+          "2026-11-15 04:02",
+          3326
         ]
       ]
     },
@@ -105190,6 +105194,10 @@
         [
           "2026-11-15 03:52",
           7526
+        ],
+        [
+          "2026-11-15 04:02",
+          6701
         ]
       ]
     },

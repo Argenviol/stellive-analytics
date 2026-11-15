@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-15T20:18:32.481441+00:00",
-    "n_snapshots": 135442,
+    "fetched_at": "2026-11-15T20:28:52.030290+00:00",
+    "n_snapshots": 135457,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-15T20:18:32.481441+00:00"
+      "2026-11-15T20:28:52.030290+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 124039,
-    "n_timepoints": 10719,
-    "span_hours": 2294.38,
-    "observed_hours": 1835.69,
+    "n_snapshots": 124053,
+    "n_timepoints": 10720,
+    "span_hours": 2294.55,
+    "observed_hours": 1835.87,
     "coverage_ratio": 0.8,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28494,
+    "n_live_rows": 28495,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-15T20:18:32.481441+00:00"
+    "last": "2026-11-15T20:28:52.030290+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 183488,
       "follower_delta": 142280,
-      "follower_per_day": 4347.7,
+      "follower_per_day": 4346.8,
       "n_sessions": 29,
       "n_live_points": 835,
       "peak_ccu": 79149,
@@ -45,23 +45,23 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 145327,
-      "follower_delta": 105159,
-      "follower_per_day": 3213.4,
+      "followers": 145328,
+      "follower_delta": 105160,
+      "follower_per_day": 3212.7,
       "n_sessions": 31,
       "n_live_points": 1085,
       "peak_ccu": 67950,
       "avg_ccu": 6307,
-      "ccu_per_1k_followers": 467.57
+      "ccu_per_1k_followers": 467.56
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 144819,
-      "follower_delta": 104702,
-      "follower_per_day": 3199.4,
+      "followers": 144820,
+      "follower_delta": 104703,
+      "follower_per_day": 3198.8,
       "n_sessions": 30,
       "n_live_points": 979,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 161821,
-      "follower_delta": 122663,
-      "follower_per_day": 3748.3,
+      "followers": 161832,
+      "follower_delta": 122674,
+      "follower_per_day": 3747.8,
       "n_sessions": 32,
-      "n_live_points": 870,
+      "n_live_points": 871,
       "peak_ccu": 60712,
-      "avg_ccu": 16050,
-      "ccu_per_1k_followers": 375.18
+      "avg_ccu": 16043,
+      "ccu_per_1k_followers": 375.15
     },
     {
       "rank": 5,
@@ -101,8 +101,8 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 282094,
-      "follower_delta": 26768,
+      "followers": 282095,
+      "follower_delta": 26769,
       "follower_per_day": 280.0,
       "n_sessions": 166,
       "n_live_points": 3127,
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 232037,
-      "follower_delta": 22218,
+      "followers": 232038,
+      "follower_delta": 22219,
       "follower_per_day": 232.4,
       "n_sessions": 146,
       "n_live_points": 1883,
@@ -173,7 +173,7 @@
       "unit": "CLICHE",
       "followers": 264870,
       "follower_delta": 23753,
-      "follower_per_day": 248.5,
+      "follower_per_day": 248.4,
       "n_sessions": 147,
       "n_live_points": 2793,
       "peak_ccu": 15159,
@@ -201,7 +201,7 @@
       "unit": "EVERYS",
       "followers": 323828,
       "follower_delta": 21908,
-      "follower_per_day": 229.2,
+      "follower_per_day": 229.1,
       "n_sessions": 148,
       "n_live_points": 2752,
       "peak_ccu": 12362,
@@ -793,10 +793,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-16 00:59",
-      "observed_min": 258.8,
-      "n_points": 26,
+      "observed_min": 269.2,
+      "n_points": 27,
       "peak_ccu": 15506,
-      "avg_ccu": 12593,
+      "avg_ccu": 12521,
       "title": "일요일 진짜 생방하나요?",
       "category": "마인크래프트"
     },
@@ -76342,6 +76342,10 @@
         [
           "2026-11-16 05:18",
           10607
+        ],
+        [
+          "2026-11-16 05:28",
+          10633
         ]
       ]
     },

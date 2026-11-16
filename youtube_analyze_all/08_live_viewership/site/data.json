@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-16T19:38:12.389448+00:00",
-    "n_snapshots": 137212,
+    "fetched_at": "2026-11-16T19:48:34.468012+00:00",
+    "n_snapshots": 137227,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-16T19:38:12.389448+00:00"
+      "2026-11-16T19:48:34.468012+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 125691,
-    "n_timepoints": 10837,
-    "span_hours": 2317.71,
-    "observed_hours": 1856.46,
+    "n_snapshots": 125705,
+    "n_timepoints": 10838,
+    "span_hours": 2317.88,
+    "observed_hours": 1856.64,
     "coverage_ratio": 0.801,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28745,
+    "n_live_rows": 28746,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-16T19:38:12.389448+00:00"
+    "last": "2026-11-16T19:48:34.468012+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 183734,
-      "follower_delta": 142526,
-      "follower_per_day": 4229.6,
+      "followers": 183736,
+      "follower_delta": 142528,
+      "follower_per_day": 4228.8,
       "n_sessions": 29,
       "n_live_points": 835,
       "peak_ccu": 79149,
@@ -45,9 +45,9 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 145599,
-      "follower_delta": 105431,
-      "follower_per_day": 3128.8,
+      "followers": 145601,
+      "follower_delta": 105433,
+      "follower_per_day": 3128.2,
       "n_sessions": 32,
       "n_live_points": 1096,
       "peak_ccu": 67950,
@@ -59,36 +59,36 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 145021,
-      "follower_delta": 104904,
-      "follower_per_day": 3113.2,
+      "followers": 145023,
+      "follower_delta": 104906,
+      "follower_per_day": 3112.5,
       "n_sessions": 30,
       "n_live_points": 979,
       "peak_ccu": 62637,
       "avg_ccu": 7194,
-      "ccu_per_1k_followers": 431.92
+      "ccu_per_1k_followers": 431.91
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 162750,
-      "follower_delta": 123592,
-      "follower_per_day": 3667.7,
+      "followers": 162756,
+      "follower_delta": 123598,
+      "follower_per_day": 3667.1,
       "n_sessions": 34,
-      "n_live_points": 906,
+      "n_live_points": 907,
       "peak_ccu": 60712,
-      "avg_ccu": 15913,
-      "ccu_per_1k_followers": 373.04
+      "avg_ccu": 15908,
+      "ccu_per_1k_followers": 373.02
     },
     {
       "rank": 5,
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 183337,
-      "follower_delta": 26596,
+      "followers": 183338,
+      "follower_delta": 26597,
       "follower_per_day": 275.4,
       "n_sessions": 102,
       "n_live_points": 1829,
@@ -117,7 +117,7 @@
       "unit": "CLICHE",
       "followers": 237027,
       "follower_delta": 27692,
-      "follower_per_day": 286.8,
+      "follower_per_day": 286.7,
       "n_sessions": 168,
       "n_live_points": 3059,
       "peak_ccu": 33491,
@@ -187,7 +187,7 @@
       "unit": "UNIVERSE",
       "followers": 254845,
       "follower_delta": 17997,
-      "follower_per_day": 186.4,
+      "follower_per_day": 186.3,
       "n_sessions": 178,
       "n_live_points": 2843,
       "peak_ccu": 13185,
@@ -1033,10 +1033,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-17 02:44",
-      "observed_min": 114.1,
-      "n_points": 12,
+      "observed_min": 124.4,
+      "n_points": 13,
       "peak_ccu": 13311,
-      "avg_ccu": 12312,
+      "avg_ccu": 12230,
       "title": "안녕하세요리입니다",
       "category": "마인크래프트"
     },
@@ -77114,6 +77114,10 @@
         [
           "2026-11-17 04:38",
           11438
+        ],
+        [
+          "2026-11-17 04:48",
+          11247
         ]
       ]
     },

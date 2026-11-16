@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-16T20:19:40.132408+00:00",
-    "n_snapshots": 137272,
+    "fetched_at": "2026-11-16T20:30:03.205244+00:00",
+    "n_snapshots": 137287,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-16T20:19:40.132408+00:00"
+      "2026-11-16T20:30:03.205244+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 125747,
-    "n_timepoints": 10841,
-    "span_hours": 2318.4,
-    "observed_hours": 1857.17,
+    "n_snapshots": 125761,
+    "n_timepoints": 10842,
+    "span_hours": 2318.57,
+    "observed_hours": 1857.34,
     "coverage_ratio": 0.801,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28749,
+    "n_live_rows": 28750,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-16T20:19:40.132408+00:00"
+    "last": "2026-11-16T20:30:03.205244+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 183742,
-      "follower_delta": 142534,
-      "follower_per_day": 4226.3,
+      "followers": 183743,
+      "follower_delta": 142535,
+      "follower_per_day": 4225.4,
       "n_sessions": 29,
       "n_live_points": 835,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 145608,
       "follower_delta": 105440,
-      "follower_per_day": 3126.4,
+      "follower_per_day": 3125.7,
       "n_sessions": 32,
       "n_live_points": 1096,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 145031,
       "follower_delta": 104914,
-      "follower_per_day": 3110.8,
+      "follower_per_day": 3110.1,
       "n_sessions": 30,
       "n_live_points": 979,
       "peak_ccu": 62637,
@@ -73,22 +73,22 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 162785,
-      "follower_delta": 123627,
-      "follower_per_day": 3665.6,
+      "followers": 162790,
+      "follower_delta": 123632,
+      "follower_per_day": 3665.0,
       "n_sessions": 34,
-      "n_live_points": 910,
+      "n_live_points": 911,
       "peak_ccu": 60712,
-      "avg_ccu": 15892,
-      "ccu_per_1k_followers": 372.96
+      "avg_ccu": 15886,
+      "ccu_per_1k_followers": 372.95
     },
     {
       "rank": 5,
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 183340,
-      "follower_delta": 26599,
+      "followers": 183341,
+      "follower_delta": 26600,
       "follower_per_day": 275.4,
       "n_sessions": 102,
       "n_live_points": 1829,
@@ -145,7 +145,7 @@
       "unit": "CLICHE",
       "followers": 238344,
       "follower_delta": 30918,
-      "follower_per_day": 320.1,
+      "follower_per_day": 320.0,
       "n_sessions": 142,
       "n_live_points": 2464,
       "peak_ccu": 24385,
@@ -201,7 +201,7 @@
       "unit": "EVERYS",
       "followers": 323951,
       "follower_delta": 22031,
-      "follower_per_day": 228.1,
+      "follower_per_day": 228.0,
       "n_sessions": 149,
       "n_live_points": 2777,
       "peak_ccu": 12362,
@@ -1033,10 +1033,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-17 02:44",
-      "observed_min": 155.5,
-      "n_points": 16,
+      "observed_min": 165.9,
+      "n_points": 17,
       "peak_ccu": 13311,
-      "avg_ccu": 11979,
+      "avg_ccu": 11897,
       "title": "안녕하세요리입니다",
       "category": "마인크래프트"
     },
@@ -77130,6 +77130,10 @@
         [
           "2026-11-17 05:19",
           10703
+        ],
+        [
+          "2026-11-17 05:30",
+          10597
         ]
       ]
     },

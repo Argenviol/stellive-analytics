@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-17T20:10:07.191982+00:00",
-    "n_snapshots": 138637,
+    "fetched_at": "2026-11-17T20:20:29.802067+00:00",
+    "n_snapshots": 138652,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-17T20:10:07.191982+00:00"
+      "2026-11-17T20:20:29.802067+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 127021,
-    "n_timepoints": 10932,
-    "span_hours": 2342.24,
-    "observed_hours": 1873.16,
+    "n_snapshots": 127035,
+    "n_timepoints": 10933,
+    "span_hours": 2342.41,
+    "observed_hours": 1873.34,
     "coverage_ratio": 0.8,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28978,
+    "n_live_rows": 28979,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-17T20:10:07.191982+00:00"
+    "last": "2026-11-17T20:20:29.802067+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 184227,
-      "follower_delta": 143019,
-      "follower_per_day": 4119.3,
+      "followers": 184228,
+      "follower_delta": 143020,
+      "follower_per_day": 4118.5,
       "n_sessions": 30,
       "n_live_points": 868,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146040,
       "follower_delta": 105872,
-      "follower_per_day": 3049.4,
+      "follower_per_day": 3048.7,
       "n_sessions": 33,
       "n_live_points": 1129,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 145431,
       "follower_delta": 105314,
-      "follower_per_day": 3033.3,
+      "follower_per_day": 3032.7,
       "n_sessions": 31,
       "n_live_points": 1012,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 163583,
-      "follower_delta": 124425,
-      "follower_per_day": 3583.8,
+      "followers": 163586,
+      "follower_delta": 124428,
+      "follower_per_day": 3583.1,
       "n_sessions": 36,
-      "n_live_points": 944,
+      "n_live_points": 945,
       "peak_ccu": 60712,
-      "avg_ccu": 15746,
-      "ccu_per_1k_followers": 371.14
+      "avg_ccu": 15741,
+      "ccu_per_1k_followers": 371.13
     },
     {
       "rank": 5,
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 324031,
-      "follower_delta": 22111,
+      "followers": 324032,
+      "follower_delta": 22112,
       "follower_per_day": 226.6,
       "n_sessions": 149,
       "n_live_points": 2777,
@@ -1369,10 +1369,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-18 03:57",
-      "observed_min": 72.8,
-      "n_points": 8,
+      "observed_min": 83.2,
+      "n_points": 9,
       "peak_ccu": 11322,
-      "avg_ccu": 10934,
+      "avg_ccu": 10866,
       "title": "안녕하십니까!!! ",
       "category": "마인크래프트"
     },
@@ -77782,6 +77782,10 @@
         [
           "2026-11-18 05:10",
           10447
+        ],
+        [
+          "2026-11-18 05:20",
+          10320
         ]
       ]
     },

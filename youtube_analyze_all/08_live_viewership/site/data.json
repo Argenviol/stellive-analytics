@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-17T19:28:31.436873+00:00",
-    "n_snapshots": 138577,
+    "fetched_at": "2026-11-17T19:38:55.343054+00:00",
+    "n_snapshots": 138592,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-17T19:28:31.436873+00:00"
+      "2026-11-17T19:38:55.343054+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 126965,
-    "n_timepoints": 10928,
-    "span_hours": 2341.55,
-    "observed_hours": 1872.46,
+    "n_snapshots": 126979,
+    "n_timepoints": 10929,
+    "span_hours": 2341.72,
+    "observed_hours": 1872.63,
     "coverage_ratio": 0.8,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 28974,
+    "n_live_rows": 28975,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-17T19:28:31.436873+00:00"
+    "last": "2026-11-17T19:38:55.343054+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 184222,
-      "follower_delta": 143014,
-      "follower_per_day": 4122.6,
+      "followers": 184223,
+      "follower_delta": 143015,
+      "follower_per_day": 4121.8,
       "n_sessions": 30,
       "n_live_points": 868,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146039,
       "follower_delta": 105871,
-      "follower_per_day": 3051.9,
+      "follower_per_day": 3051.3,
       "n_sessions": 33,
       "n_live_points": 1129,
       "peak_ccu": 67950,
@@ -59,28 +59,28 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 145430,
-      "follower_delta": 105313,
-      "follower_per_day": 3035.8,
+      "followers": 145429,
+      "follower_delta": 105312,
+      "follower_per_day": 3035.1,
       "n_sessions": 31,
       "n_live_points": 1012,
       "peak_ccu": 62637,
       "avg_ccu": 7115,
-      "ccu_per_1k_followers": 430.7
+      "ccu_per_1k_followers": 430.71
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 163559,
-      "follower_delta": 124401,
-      "follower_per_day": 3586.0,
+      "followers": 163566,
+      "follower_delta": 124408,
+      "follower_per_day": 3585.5,
       "n_sessions": 36,
-      "n_live_points": 940,
+      "n_live_points": 941,
       "peak_ccu": 60712,
-      "avg_ccu": 15768,
-      "ccu_per_1k_followers": 371.19
+      "avg_ccu": 15763,
+      "ccu_per_1k_followers": 371.18
     },
     {
       "rank": 5,
@@ -103,7 +103,7 @@
       "unit": "UNIVERSE",
       "followers": 282493,
       "follower_delta": 27167,
-      "follower_per_day": 278.5,
+      "follower_per_day": 278.4,
       "n_sessions": 169,
       "n_live_points": 3198,
       "peak_ccu": 38237,
@@ -131,7 +131,7 @@
       "unit": "UNIVERSE",
       "followers": 232343,
       "follower_delta": 22524,
-      "follower_per_day": 230.9,
+      "follower_per_day": 230.8,
       "n_sessions": 147,
       "n_live_points": 1922,
       "peak_ccu": 28071,
@@ -145,7 +145,7 @@
       "unit": "CLICHE",
       "followers": 238566,
       "follower_delta": 31140,
-      "follower_per_day": 319.2,
+      "follower_per_day": 319.1,
       "n_sessions": 143,
       "n_live_points": 2497,
       "peak_ccu": 24385,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 245436,
-      "follower_delta": 26336,
+      "followers": 245437,
+      "follower_delta": 26337,
       "follower_per_day": 269.9,
       "n_sessions": 140,
       "n_live_points": 2154,
@@ -1369,10 +1369,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-18 03:57",
-      "observed_min": 31.2,
-      "n_points": 4,
+      "observed_min": 41.6,
+      "n_points": 5,
       "peak_ccu": 11322,
-      "avg_ccu": 11211,
+      "avg_ccu": 11141,
       "title": "안녕하십니까!!! ",
       "category": "마인크래프트"
     },
@@ -77766,6 +77766,10 @@
         [
           "2026-11-18 04:28",
           11119
+        ],
+        [
+          "2026-11-18 04:38",
+          10864
         ]
       ]
     },

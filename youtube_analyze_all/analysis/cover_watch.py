@@ -69,7 +69,7 @@ def main() -> int:
         days = g["collected_at"].str[:10].nunique()
         L += [f"시점별 스냅샷 {days}일치" + (" — 2일 이상 쌓이면 일별 성장을 낸다." if days < 2 else "."), ""]
         if days >= 2:
-            first = g[g["collected_at"].str[:10] == g["collected_at"].str[:10].min()].set_index("video_id")["views"]
+            first = g[g["collected_at"] == g["collected_at"].min()].set_index("video_id")["views"]
             last = cur.set_index("video_id")["views"]
             gain = (last - first.reindex(last.index)).dropna()
             L += [f"- 첫 스냅샷 이후 조회수가 오른 영상 {int((gain > 0).sum())}개 · 합계 +{int(gain.sum()):,}회.", ""]

@@ -38,7 +38,7 @@ def main() -> int:
     if not vp.exists():
         print("collect/data/cover_watch_views.csv 가 아직 없다 — collect/cover_watch.py 먼저")
         return 1
-    v = pd.read_csv(vp)
+    v = pd.read_csv(vp).drop_duplicates(["collected_at", "song", "video_id"], keep="last")  # 같은 수집의 중복 줄은 한 줄로
     base = pd.read_csv(bp).drop_duplicates("channel_id", keep="last").set_index("channel_id")["median_views"] if bp.exists() else pd.Series(dtype=float)
     L = ["# 유명 곡의 커버는 정말 인기를 끌었나", ""]
     for song, g in v.groupby("song"):
@@ -69,10 +69,10 @@ def main() -> int:
         days = g["collected_at"].str[:10].nunique()
         L += [f"시점별 스냅샷 {days}일치" + (" — 2일 이상 쌓이면 일별 성장을 낸다." if days < 2 else "."), ""]
         if days >= 2:
-            first = g[g["collected_at"] == g["collected_at"].min()].set_index("video_id")["views"]
+            first = g.sort_values("collected_at").drop_duplicates("video_id", keep="first").set_index("video_id")["views"]  # 영상별 처음 관측값
             last = cur.set_index("video_id")["views"]
             gain = (last - first.reindex(last.index)).dropna()
-            L += [f"- 첫 스냅샷 이후 조회수가 오른 영상 {int((gain > 0).sum())}개 · 합계 +{int(gain.sum()):,}회.", ""]
+            L += [f"- 영상별 처음 관측 이후 조회수가 오른 영상 {int((gain > 0).sum())}개 · 합계 +{int(gain.sum()):,}회.", ""]
     L += ["## 한계", "", "- 검색 상위 N개만 본다(검색 순위는 변동). 원곡은 조회수 최대 영상으로 가정했다.",
           "- 채널 평소는 최근 10개 업로드의 지금 중앙값이라 오래된 커버와는 시기가 다르다.",
           "- 곡은 `collect/cover_watch.csv` 에 올린 것만 본다(현재 한 곡). 곡을 더하면 다음 실행부터 같은 표가 생긴다."]

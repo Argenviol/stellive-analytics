@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-19T21:40:07.708482+00:00",
-    "n_snapshots": 141832,
+    "fetched_at": "2026-11-19T21:50:28.024147+00:00",
+    "n_snapshots": 141847,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-19T21:40:07.708482+00:00"
+      "2026-11-19T21:50:28.024147+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 130003,
-    "n_timepoints": 11145,
-    "span_hours": 2391.74,
-    "observed_hours": 1910.54,
+    "n_snapshots": 130017,
+    "n_timepoints": 11146,
+    "span_hours": 2391.91,
+    "observed_hours": 1910.71,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 29573,
+    "n_live_rows": 29574,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-19T21:40:07.708482+00:00"
+    "last": "2026-11-19T21:50:28.024147+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 184875,
-      "follower_delta": 143667,
-      "follower_per_day": 3905.9,
+      "followers": 184877,
+      "follower_delta": 143669,
+      "follower_per_day": 3905.2,
       "n_sessions": 31,
       "n_live_points": 901,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146593,
       "follower_delta": 106425,
-      "follower_per_day": 2893.4,
+      "follower_per_day": 2892.9,
       "n_sessions": 36,
       "n_live_points": 1186,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 145974,
       "follower_delta": 105857,
-      "follower_per_day": 2878.0,
+      "follower_per_day": 2877.4,
       "n_sessions": 33,
       "n_live_points": 1075,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 164742,
-      "follower_delta": 125584,
-      "follower_per_day": 3414.3,
+      "followers": 164751,
+      "follower_delta": 125593,
+      "follower_per_day": 3413.9,
       "n_sessions": 38,
-      "n_live_points": 984,
+      "n_live_points": 985,
       "peak_ccu": 60712,
-      "avg_ccu": 15510,
-      "ccu_per_1k_followers": 368.53
+      "avg_ccu": 15504,
+      "ccu_per_1k_followers": 368.51
     },
     {
       "rank": 5,
@@ -145,7 +145,7 @@
       "unit": "CLICHE",
       "followers": 238793,
       "follower_delta": 31367,
-      "follower_per_day": 314.8,
+      "follower_per_day": 314.7,
       "n_sessions": 143,
       "n_live_points": 2497,
       "peak_ccu": 24385,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 280191,
-      "follower_delta": 27289,
+      "followers": 280192,
+      "follower_delta": 27290,
       "follower_per_day": 273.8,
       "n_sessions": 124,
       "n_live_points": 1931,
@@ -215,7 +215,7 @@
       "unit": "CLICHE",
       "followers": 245674,
       "follower_delta": 26574,
-      "follower_per_day": 266.7,
+      "follower_per_day": 266.6,
       "n_sessions": 141,
       "n_live_points": 2165,
       "peak_ccu": 9414,
@@ -1441,10 +1441,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-20 02:52",
-      "observed_min": 227.3,
-      "n_points": 23,
+      "observed_min": 237.6,
+      "n_points": 24,
       "peak_ccu": 10983,
-      "avg_ccu": 9961,
+      "avg_ccu": 9930,
       "title": "점프킹 켠왕.... 돌격!!",
       "category": "점프 킹"
     },
@@ -78954,6 +78954,10 @@
         [
           "2026-11-20 06:40",
           9298
+        ],
+        [
+          "2026-11-20 06:50",
+          9218
         ]
       ]
     },

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-19T20:58:47.990255+00:00",
-    "n_snapshots": 141772,
+    "fetched_at": "2026-11-19T21:09:08.084169+00:00",
+    "n_snapshots": 141787,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-19T20:58:47.990255+00:00"
+      "2026-11-19T21:09:08.084169+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 129947,
-    "n_timepoints": 11141,
-    "span_hours": 2391.05,
-    "observed_hours": 1909.84,
+    "n_snapshots": 129961,
+    "n_timepoints": 11142,
+    "span_hours": 2391.22,
+    "observed_hours": 1910.02,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 29569,
+    "n_live_rows": 29570,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-19T20:58:47.990255+00:00"
+    "last": "2026-11-19T21:09:08.084169+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,14 +31,14 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 184869,
-      "follower_delta": 143661,
-      "follower_per_day": 3908.8,
+      "followers": 184870,
+      "follower_delta": 143662,
+      "follower_per_day": 3908.1,
       "n_sessions": 31,
       "n_live_points": 901,
       "peak_ccu": 79149,
       "avg_ccu": 13161,
-      "ccu_per_1k_followers": 428.14
+      "ccu_per_1k_followers": 428.13
     },
     {
       "rank": 2,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146591,
       "follower_delta": 106423,
-      "follower_per_day": 2895.6,
+      "follower_per_day": 2895.1,
       "n_sessions": 36,
       "n_live_points": 1186,
       "peak_ccu": 67950,
@@ -59,9 +59,9 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 145972,
-      "follower_delta": 105855,
-      "follower_per_day": 2880.2,
+      "followers": 145973,
+      "follower_delta": 105856,
+      "follower_per_day": 2879.6,
       "n_sessions": 33,
       "n_live_points": 1075,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 164721,
-      "follower_delta": 125563,
-      "follower_per_day": 3416.4,
+      "followers": 164726,
+      "follower_delta": 125568,
+      "follower_per_day": 3415.9,
       "n_sessions": 38,
-      "n_live_points": 980,
+      "n_live_points": 981,
       "peak_ccu": 60712,
-      "avg_ccu": 15535,
-      "ccu_per_1k_followers": 368.57
+      "avg_ccu": 15529,
+      "ccu_per_1k_followers": 368.56
     },
     {
       "rank": 5,
@@ -89,7 +89,7 @@
       "unit": "EVERYS",
       "followers": 183845,
       "follower_delta": 27104,
-      "follower_per_day": 272.1,
+      "follower_per_day": 272.0,
       "n_sessions": 104,
       "n_live_points": 1895,
       "peak_ccu": 38402,
@@ -103,7 +103,7 @@
       "unit": "UNIVERSE",
       "followers": 282669,
       "follower_delta": 27343,
-      "follower_per_day": 274.5,
+      "follower_per_day": 274.4,
       "n_sessions": 171,
       "n_live_points": 3235,
       "peak_ccu": 38237,
@@ -173,7 +173,7 @@
       "unit": "CLICHE",
       "followers": 265412,
       "follower_delta": 24295,
-      "follower_per_day": 243.9,
+      "follower_per_day": 243.8,
       "n_sessions": 151,
       "n_live_points": 2889,
       "peak_ccu": 15159,
@@ -1441,10 +1441,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-20 02:52",
-      "observed_min": 186.0,
-      "n_points": 19,
+      "observed_min": 196.3,
+      "n_points": 20,
       "peak_ccu": 10983,
-      "avg_ccu": 10073,
+      "avg_ccu": 10045,
       "title": "점프킹 켠왕.... 돌격!!",
       "category": "점프 킹"
     },
@@ -78938,6 +78938,10 @@
         [
           "2026-11-20 05:58",
           9344
+        ],
+        [
+          "2026-11-20 06:09",
+          9509
         ]
       ]
     },

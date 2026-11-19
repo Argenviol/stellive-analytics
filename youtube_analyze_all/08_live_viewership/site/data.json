@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-19T19:25:51.334437+00:00",
-    "n_snapshots": 141637,
+    "fetched_at": "2026-11-19T19:36:10.393049+00:00",
+    "n_snapshots": 141652,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-19T19:25:51.334437+00:00"
+      "2026-11-19T19:36:10.393049+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 129821,
-    "n_timepoints": 11132,
-    "span_hours": 2389.5,
-    "observed_hours": 1908.28,
+    "n_snapshots": 129835,
+    "n_timepoints": 11133,
+    "span_hours": 2389.68,
+    "observed_hours": 1908.45,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 29560,
+    "n_live_rows": 29561,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-19T19:25:51.334437+00:00"
+    "last": "2026-11-19T19:36:10.393049+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 184862,
-      "follower_delta": 143654,
-      "follower_per_day": 3915.5,
+      "followers": 184863,
+      "follower_delta": 143655,
+      "follower_per_day": 3914.8,
       "n_sessions": 31,
       "n_live_points": 901,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146590,
       "follower_delta": 106422,
-      "follower_per_day": 2900.7,
+      "follower_per_day": 2900.1,
       "n_sessions": 36,
       "n_live_points": 1186,
       "peak_ccu": 67950,
@@ -59,9 +59,9 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 145969,
-      "follower_delta": 105852,
-      "follower_per_day": 2885.2,
+      "followers": 145970,
+      "follower_delta": 105853,
+      "follower_per_day": 2884.6,
       "n_sessions": 33,
       "n_live_points": 1075,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 164675,
-      "follower_delta": 125517,
-      "follower_per_day": 3421.2,
+      "followers": 164683,
+      "follower_delta": 125525,
+      "follower_per_day": 3420.7,
       "n_sessions": 38,
-      "n_live_points": 971,
+      "n_live_points": 972,
       "peak_ccu": 60712,
-      "avg_ccu": 15590,
-      "ccu_per_1k_followers": 368.68
+      "avg_ccu": 15585,
+      "ccu_per_1k_followers": 368.66
     },
     {
       "rank": 5,
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 237480,
-      "follower_delta": 28145,
+      "followers": 237479,
+      "follower_delta": 28144,
       "follower_per_day": 282.7,
       "n_sessions": 170,
       "n_live_points": 3125,
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 232620,
-      "follower_delta": 22801,
+      "followers": 232619,
+      "follower_delta": 22800,
       "follower_per_day": 229.0,
       "n_sessions": 149,
       "n_live_points": 1988,
@@ -159,7 +159,7 @@
       "unit": "UNIVERSE",
       "followers": 280189,
       "follower_delta": 27287,
-      "follower_per_day": 274.1,
+      "follower_per_day": 274.0,
       "n_sessions": 124,
       "n_live_points": 1931,
       "peak_ccu": 18587,
@@ -1441,10 +1441,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-20 02:52",
-      "observed_min": 93.0,
-      "n_points": 10,
+      "observed_min": 103.3,
+      "n_points": 11,
       "peak_ccu": 10983,
-      "avg_ccu": 10525,
+      "avg_ccu": 10487,
       "title": "점프킹 켠왕.... 돌격!!",
       "category": "점프 킹"
     },
@@ -78902,6 +78902,10 @@
         [
           "2026-11-20 04:25",
           10121
+        ],
+        [
+          "2026-11-20 04:36",
+          10104
         ]
       ]
     },

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-20T20:28:17.603420+00:00",
-    "n_snapshots": 143317,
+    "fetched_at": "2026-11-20T20:38:40.903082+00:00",
+    "n_snapshots": 143332,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-20T20:28:17.603420+00:00"
+      "2026-11-20T20:38:40.903082+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 131389,
-    "n_timepoints": 11244,
-    "span_hours": 2414.54,
-    "observed_hours": 1927.78,
+    "n_snapshots": 131403,
+    "n_timepoints": 11245,
+    "span_hours": 2414.72,
+    "observed_hours": 1927.96,
     "coverage_ratio": 0.798,
     "largest_gap_hours": 11.3,
     "n_live_rows": 29882,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-20T20:28:17.603420+00:00"
+    "last": "2026-11-20T20:38:40.903082+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,14 +31,14 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185245,
-      "follower_delta": 144037,
-      "follower_per_day": 3817.4,
+      "followers": 185247,
+      "follower_delta": 144039,
+      "follower_per_day": 3816.7,
       "n_sessions": 33,
       "n_live_points": 941,
       "peak_ccu": 79149,
       "avg_ccu": 12938,
-      "ccu_per_1k_followers": 427.27
+      "ccu_per_1k_followers": 427.26
     },
     {
       "rank": 2,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 146781,
       "follower_delta": 106613,
-      "follower_per_day": 2825.5,
+      "follower_per_day": 2825.0,
       "n_sessions": 36,
       "n_live_points": 1186,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 146138,
       "follower_delta": 106021,
-      "follower_per_day": 2809.9,
+      "follower_per_day": 2809.3,
       "n_sessions": 33,
       "n_live_points": 1075,
       "peak_ccu": 62637,
@@ -75,7 +75,7 @@
       "unit": "ABYSS",
       "followers": 165383,
       "follower_delta": 126225,
-      "follower_per_day": 3345.3,
+      "follower_per_day": 3344.7,
       "n_sessions": 39,
       "n_live_points": 1014,
       "peak_ccu": 60712,
@@ -89,7 +89,7 @@
       "unit": "EVERYS",
       "followers": 183940,
       "follower_delta": 27199,
-      "follower_per_day": 270.4,
+      "follower_per_day": 270.3,
       "n_sessions": 104,
       "n_live_points": 1895,
       "peak_ccu": 38402,
@@ -187,7 +187,7 @@
       "unit": "UNIVERSE",
       "followers": 255275,
       "follower_delta": 18427,
-      "follower_per_day": 183.2,
+      "follower_per_day": 183.1,
       "n_sessions": 182,
       "n_live_points": 2913,
       "peak_ccu": 13185,

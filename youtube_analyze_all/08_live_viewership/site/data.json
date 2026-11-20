@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-20T19:05:14.917202+00:00",
-    "n_snapshots": 143197,
+    "fetched_at": "2026-11-20T19:15:37.761097+00:00",
+    "n_snapshots": 143212,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-20T19:05:14.917202+00:00"
+      "2026-11-20T19:15:37.761097+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 131277,
-    "n_timepoints": 11236,
-    "span_hours": 2413.16,
-    "observed_hours": 1926.38,
+    "n_snapshots": 131291,
+    "n_timepoints": 11237,
+    "span_hours": 2413.33,
+    "observed_hours": 1926.56,
     "coverage_ratio": 0.798,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 29877,
+    "n_live_rows": 29878,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-20T19:05:14.917202+00:00"
+    "last": "2026-11-20T19:15:37.761097+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 185240,
       "follower_delta": 144032,
-      "follower_per_day": 3823.1,
+      "follower_per_day": 3822.4,
       "n_sessions": 33,
       "n_live_points": 941,
       "peak_ccu": 79149,
@@ -45,42 +45,42 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 146781,
-      "follower_delta": 106613,
-      "follower_per_day": 2829.9,
+      "followers": 146780,
+      "follower_delta": 106612,
+      "follower_per_day": 2829.3,
       "n_sessions": 36,
       "n_live_points": 1186,
       "peak_ccu": 67950,
       "avg_ccu": 6149,
-      "ccu_per_1k_followers": 462.93
+      "ccu_per_1k_followers": 462.94
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 146135,
-      "follower_delta": 106018,
-      "follower_per_day": 2814.1,
+      "followers": 146134,
+      "follower_delta": 106017,
+      "follower_per_day": 2813.5,
       "n_sessions": 33,
       "n_live_points": 1075,
       "peak_ccu": 62637,
       "avg_ccu": 6949,
-      "ccu_per_1k_followers": 428.62
+      "ccu_per_1k_followers": 428.63
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 165333,
-      "follower_delta": 126175,
-      "follower_per_day": 3349.1,
+      "followers": 165344,
+      "follower_delta": 126186,
+      "follower_per_day": 3348.8,
       "n_sessions": 39,
-      "n_live_points": 1009,
+      "n_live_points": 1010,
       "peak_ccu": 60712,
-      "avg_ccu": 15396,
-      "ccu_per_1k_followers": 367.21
+      "avg_ccu": 15392,
+      "ccu_per_1k_followers": 367.19
     },
     {
       "rank": 5,
@@ -117,7 +117,7 @@
       "unit": "CLICHE",
       "followers": 237615,
       "follower_delta": 28280,
-      "follower_per_day": 281.3,
+      "follower_per_day": 281.2,
       "n_sessions": 171,
       "n_live_points": 3158,
       "peak_ccu": 33491,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 265528,
-      "follower_delta": 24411,
+      "followers": 265527,
+      "follower_delta": 24410,
       "follower_per_day": 242.8,
       "n_sessions": 152,
       "n_live_points": 2918,
@@ -1165,10 +1165,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-21 01:39",
-      "observed_min": 145.4,
-      "n_points": 15,
+      "observed_min": 155.8,
+      "n_points": 16,
       "peak_ccu": 12580,
-      "avg_ccu": 11762,
+      "avg_ccu": 11717,
       "title": "금요일..생방하나요?!",
       "category": "리그 오브 레전드"
     },
@@ -79702,6 +79702,10 @@
         [
           "2026-11-21 04:05",
           11366
+        ],
+        [
+          "2026-11-21 04:15",
+          11039
         ]
       ]
     },

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-21T21:26:06.298853+00:00",
-    "n_snapshots": 145207,
+    "fetched_at": "2026-11-21T21:36:28.939994+00:00",
+    "n_snapshots": 145222,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-21T21:26:06.298853+00:00"
+      "2026-11-21T21:36:28.939994+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 133153,
-    "n_timepoints": 11370,
-    "span_hours": 2439.51,
-    "observed_hours": 1949.81,
+    "n_snapshots": 133167,
+    "n_timepoints": 11371,
+    "span_hours": 2439.68,
+    "observed_hours": 1949.98,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30305,
+    "n_live_rows": 30306,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-21T21:26:06.298853+00:00"
+    "last": "2026-11-21T21:36:28.939994+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 185591,
       "follower_delta": 144383,
-      "follower_per_day": 3723.9,
+      "follower_per_day": 3723.2,
       "n_sessions": 35,
       "n_live_points": 969,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 147261,
       "follower_delta": 107093,
-      "follower_per_day": 2762.1,
+      "follower_per_day": 2761.6,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 146527,
       "follower_delta": 106410,
-      "follower_per_day": 2744.5,
+      "follower_per_day": 2744.0,
       "n_sessions": 35,
       "n_live_points": 1124,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 166474,
-      "follower_delta": 127316,
-      "follower_per_day": 3283.7,
+      "followers": 166480,
+      "follower_delta": 127322,
+      "follower_per_day": 3283.3,
       "n_sessions": 41,
-      "n_live_points": 1063,
+      "n_live_points": 1064,
       "peak_ccu": 60712,
-      "avg_ccu": 15420,
-      "ccu_per_1k_followers": 364.69
+      "avg_ccu": 15418,
+      "ccu_per_1k_followers": 364.68
     },
     {
       "rank": 5,
@@ -145,7 +145,7 @@
       "unit": "CLICHE",
       "followers": 239044,
       "follower_delta": 31618,
-      "follower_per_day": 311.1,
+      "follower_per_day": 311.0,
       "n_sessions": 146,
       "n_live_points": 2568,
       "peak_ccu": 24385,
@@ -673,10 +673,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-22 03:40",
-      "observed_min": 166.1,
-      "n_points": 17,
+      "observed_min": 176.5,
+      "n_points": 18,
       "peak_ccu": 17913,
-      "avg_ccu": 15396,
+      "avg_ccu": 15270,
       "title": "애니 노래 OST 월드컵 까자!!!!!!",
       "category": "talk"
     },
@@ -80954,6 +80954,10 @@
         [
           "2026-11-22 06:26",
           13252
+        ],
+        [
+          "2026-11-22 06:36",
+          13117
         ]
       ]
     },

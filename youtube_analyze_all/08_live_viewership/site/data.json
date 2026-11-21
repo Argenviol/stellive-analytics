@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-21T23:41:03.409671+00:00",
-    "n_snapshots": 145402,
+    "fetched_at": "2026-11-21T23:51:26.511500+00:00",
+    "n_snapshots": 145417,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-21T23:41:03.409671+00:00"
+      "2026-11-21T23:51:26.511500+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 133335,
-    "n_timepoints": 11383,
-    "span_hours": 2441.76,
-    "observed_hours": 1952.09,
+    "n_snapshots": 133349,
+    "n_timepoints": 11384,
+    "span_hours": 2441.93,
+    "observed_hours": 1952.26,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30318,
+    "n_live_rows": 30319,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-21T23:41:03.409671+00:00"
+    "last": "2026-11-21T23:51:26.511500+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,23 +31,23 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185607,
-      "follower_delta": 144399,
-      "follower_per_day": 3715.3,
+      "followers": 185606,
+      "follower_delta": 144398,
+      "follower_per_day": 3714.6,
       "n_sessions": 35,
       "n_live_points": 969,
       "peak_ccu": 79149,
       "avg_ccu": 12761,
-      "ccu_per_1k_followers": 426.43
+      "ccu_per_1k_followers": 426.44
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 147268,
-      "follower_delta": 107100,
-      "follower_per_day": 2755.6,
+      "followers": 147269,
+      "follower_delta": 107101,
+      "follower_per_day": 2755.2,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 146540,
       "follower_delta": 106423,
-      "follower_per_day": 2738.2,
+      "follower_per_day": 2737.7,
       "n_sessions": 35,
       "n_live_points": 1124,
       "peak_ccu": 62637,
@@ -73,22 +73,22 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 166583,
-      "follower_delta": 127425,
-      "follower_per_day": 3278.6,
+      "followers": 166612,
+      "follower_delta": 127454,
+      "follower_per_day": 3278.7,
       "n_sessions": 41,
-      "n_live_points": 1076,
+      "n_live_points": 1077,
       "peak_ccu": 60712,
-      "avg_ccu": 15394,
-      "ccu_per_1k_followers": 364.45
+      "avg_ccu": 15393,
+      "ccu_per_1k_followers": 364.39
     },
     {
       "rank": 5,
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 184110,
-      "follower_delta": 27369,
+      "followers": 184111,
+      "follower_delta": 27370,
       "follower_per_day": 269.0,
       "n_sessions": 106,
       "n_live_points": 1929,
@@ -103,7 +103,7 @@
       "unit": "UNIVERSE",
       "followers": 282984,
       "follower_delta": 27658,
-      "follower_per_day": 271.9,
+      "follower_per_day": 271.8,
       "n_sessions": 173,
       "n_live_points": 3287,
       "peak_ccu": 38237,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 265620,
-      "follower_delta": 24503,
+      "followers": 265621,
+      "follower_delta": 24504,
       "follower_per_day": 240.8,
       "n_sessions": 152,
       "n_live_points": 2918,
@@ -673,10 +673,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-22 03:40",
-      "observed_min": 301.0,
-      "n_points": 30,
+      "observed_min": 311.4,
+      "n_points": 31,
       "peak_ccu": 17913,
-      "avg_ccu": 14476,
+      "avg_ccu": 14473,
       "title": "애니 노래 OST 월드컵 까자!!!!!!",
       "category": "talk"
     },
@@ -81006,6 +81006,10 @@
         [
           "2026-11-22 08:41",
           14194
+        ],
+        [
+          "2026-11-22 08:51",
+          14384
         ]
       ]
     },

@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-21T19:42:17.793059+00:00",
-    "n_snapshots": 145057,
+    "fetched_at": "2026-11-21T19:52:40.508037+00:00",
+    "n_snapshots": 145072,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-21T19:42:17.793059+00:00"
+      "2026-11-21T19:52:40.508037+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 133013,
-    "n_timepoints": 11360,
-    "span_hours": 2437.78,
-    "observed_hours": 1948.08,
+    "n_snapshots": 133027,
+    "n_timepoints": 11361,
+    "span_hours": 2437.95,
+    "observed_hours": 1948.25,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30295,
+    "n_live_rows": 30296,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-21T19:42:17.793059+00:00"
+    "last": "2026-11-21T19:52:40.508037+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185585,
-      "follower_delta": 144377,
-      "follower_per_day": 3730.7,
+      "followers": 185586,
+      "follower_delta": 144378,
+      "follower_per_day": 3730.0,
       "n_sessions": 35,
       "n_live_points": 969,
       "peak_ccu": 79149,
@@ -45,9 +45,9 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 147255,
-      "follower_delta": 107087,
-      "follower_per_day": 2767.1,
+      "followers": 147256,
+      "follower_delta": 107088,
+      "follower_per_day": 2766.6,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 146529,
       "follower_delta": 106412,
-      "follower_per_day": 2749.7,
+      "follower_per_day": 2749.2,
       "n_sessions": 35,
       "n_live_points": 1124,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 166401,
-      "follower_delta": 127243,
-      "follower_per_day": 3287.9,
+      "followers": 166405,
+      "follower_delta": 127247,
+      "follower_per_day": 3287.4,
       "n_sessions": 41,
-      "n_live_points": 1053,
+      "n_live_points": 1054,
       "peak_ccu": 60712,
       "avg_ccu": 15431,
-      "ccu_per_1k_followers": 364.85
+      "ccu_per_1k_followers": 364.84
     },
     {
       "rank": 5,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 265615,
-      "follower_delta": 24498,
+      "followers": 265614,
+      "follower_delta": 24497,
       "follower_per_day": 241.2,
       "n_sessions": 152,
       "n_live_points": 2918,
@@ -673,10 +673,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-22 03:40",
-      "observed_min": 62.3,
-      "n_points": 7,
+      "observed_min": 72.7,
+      "n_points": 8,
       "peak_ccu": 17913,
-      "avg_ccu": 16935,
+      "avg_ccu": 16765,
       "title": "애니 노래 OST 월드컵 까자!!!!!!",
       "category": "talk"
     },
@@ -80914,6 +80914,10 @@
         [
           "2026-11-22 04:42",
           15709
+        ],
+        [
+          "2026-11-22 04:52",
+          15574
         ]
       ]
     },

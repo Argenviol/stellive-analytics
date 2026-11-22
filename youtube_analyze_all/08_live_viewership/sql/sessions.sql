@@ -88,7 +88,7 @@ INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points,
 INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('아라하시 타비', 'Arahashi Tabi', 'UNIVERSE', '2026-09-07 18:29', 10.2, 2, 12351, 8278, '✨나 아라하시 타빈디 오늘 4번째 생일임(*/ω＼*)✨', 'talk');
 INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('아야츠노 유니', 'Ayatsuno Yuni', 'EVERYS', '2026-10-22 19:05', 389.9, 40, 12332, 7428, '안녕하시지 
 ', 'talk');
-INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('하나요 히요리', 'Hanayo Hiyori', 'ABYSS', '2026-11-23 05:10', 0.0, 1, 12127, 12127, '애니 노래 OST 월드컵 까자!!!!!!', 'talk');
+INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('하나요 히요리', 'Hanayo Hiyori', 'ABYSS', '2026-11-23 05:10', 10.4, 2, 12127, 11942, '애니 노래 OST 월드컵 까자!!!!!!', 'talk');
 INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('시즈키 토아', 'Shizuki Toa', 'ABYSS', '2026-10-21 18:01', 228.2, 24, 12040, 9351, '품격 있으신 분들만 입장', 'talk');
 INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('하나요 히요리', 'Hanayo Hiyori', 'ABYSS', '2026-11-19 21:03', 103.6, 11, 11967, 9764, '목요일하나요리!!!', 'talk');
 INSERT INTO sessions (name_ko, name_en, unit, start_kst, observed_min, n_points, peak_ccu, avg_ccu, title, category) VALUES ('아라하시 타비', 'Arahashi Tabi', 'UNIVERSE', '2026-09-13 13:58', 524.4, 53, 11790, 8079, '저는 버그 인간입니다', 'talk');

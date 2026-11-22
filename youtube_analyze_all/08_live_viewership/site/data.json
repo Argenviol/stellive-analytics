@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-22T09:44:25.539722+00:00",
-    "n_snapshots": 146302,
+    "fetched_at": "2026-11-22T09:54:47.098431+00:00",
+    "n_snapshots": 146317,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-22T09:44:25.539722+00:00"
+      "2026-11-22T09:54:47.098431+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 134175,
-    "n_timepoints": 11443,
-    "span_hours": 2451.81,
-    "observed_hours": 1962.55,
+    "n_snapshots": 134189,
+    "n_timepoints": 11444,
+    "span_hours": 2451.99,
+    "observed_hours": 1962.72,
     "coverage_ratio": 0.8,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30431,
+    "n_live_rows": 30432,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-22T09:44:25.539722+00:00"
+    "last": "2026-11-22T09:54:47.098431+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,23 +31,23 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185821,
-      "follower_delta": 144613,
-      "follower_per_day": 3681.2,
+      "followers": 185827,
+      "follower_delta": 144619,
+      "follower_per_day": 3680.6,
       "n_sessions": 36,
       "n_live_points": 992,
       "peak_ccu": 79149,
       "avg_ccu": 12666,
-      "ccu_per_1k_followers": 425.94
+      "ccu_per_1k_followers": 425.93
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 147380,
-      "follower_delta": 107212,
-      "follower_per_day": 2729.1,
+      "followers": 147382,
+      "follower_delta": 107214,
+      "follower_per_day": 2728.7,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -59,28 +59,28 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 146756,
-      "follower_delta": 106639,
+      "followers": 146776,
+      "follower_delta": 106659,
       "follower_per_day": 2714.5,
       "n_sessions": 36,
-      "n_live_points": 1129,
+      "n_live_points": 1130,
       "peak_ccu": 62637,
-      "avg_ccu": 6867,
-      "ccu_per_1k_followers": 426.81
+      "avg_ccu": 6879,
+      "ccu_per_1k_followers": 426.75
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 166951,
-      "follower_delta": 127793,
-      "follower_per_day": 3253.0,
+      "followers": 166966,
+      "follower_delta": 127808,
+      "follower_per_day": 3252.8,
       "n_sessions": 41,
       "n_live_points": 1086,
       "peak_ccu": 60712,
       "avg_ccu": 15385,
-      "ccu_per_1k_followers": 363.65
+      "ccu_per_1k_followers": 363.62
     },
     {
       "rank": 5,
@@ -115,22 +115,22 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 237819,
-      "follower_delta": 28484,
+      "followers": 237821,
+      "follower_delta": 28486,
       "follower_per_day": 278.8,
       "n_sessions": 171,
       "n_live_points": 3158,
       "peak_ccu": 33491,
       "avg_ccu": 3312,
-      "ccu_per_1k_followers": 140.83
+      "ccu_per_1k_followers": 140.82
     },
     {
       "rank": 8,
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 232929,
-      "follower_delta": 23110,
+      "followers": 232930,
+      "follower_delta": 23111,
       "follower_per_day": 226.2,
       "n_sessions": 152,
       "n_live_points": 2055,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 280566,
-      "follower_delta": 27664,
+      "followers": 280570,
+      "follower_delta": 27668,
       "follower_per_day": 270.8,
       "n_sessions": 126,
       "n_live_points": 1979,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 265682,
-      "follower_delta": 24565,
+      "followers": 265684,
+      "follower_delta": 24567,
       "follower_per_day": 240.5,
       "n_sessions": 152,
       "n_live_points": 2918,
@@ -185,8 +185,8 @@
       "name_ko": "시라유키 히나",
       "name_en": "Shirayuki Hina",
       "unit": "UNIVERSE",
-      "followers": 255490,
-      "follower_delta": 18642,
+      "followers": 255491,
+      "follower_delta": 18643,
       "follower_per_day": 182.5,
       "n_sessions": 185,
       "n_live_points": 2963,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 246018,
-      "follower_delta": 26918,
+      "followers": 246017,
+      "follower_delta": 26917,
       "follower_per_day": 263.5,
       "n_sessions": 143,
       "n_live_points": 2199,
@@ -573,6 +573,18 @@
       "category": "talk"
     },
     {
+      "name_ko": "시즈키 토아",
+      "name_en": "Shizuki Toa",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-22 18:02",
+      "observed_min": 51.8,
+      "n_points": 6,
+      "peak_ccu": 20370,
+      "avg_ccu": 17295,
+      "title": "🩷 1122 토아 생일파티래 부마야 🩷",
+      "category": "talk"
+    },
+    {
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
@@ -594,18 +606,6 @@
       "peak_ccu": 19804,
       "avg_ccu": 16094,
       "title": "히요리 하요링 입니다 ! !",
-      "category": "talk"
-    },
-    {
-      "name_ko": "시즈키 토아",
-      "name_en": "Shizuki Toa",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-22 18:02",
-      "observed_min": 41.4,
-      "n_points": 5,
-      "peak_ccu": 19606,
-      "avg_ccu": 16680,
-      "title": "🩷 1122 토아 생일파티래 부마야 🩷",
       "category": "talk"
     },
     {
@@ -113674,6 +113674,10 @@
         [
           "2026-11-22 18:44",
           19606
+        ],
+        [
+          "2026-11-22 18:54",
+          20370
         ]
       ]
     },

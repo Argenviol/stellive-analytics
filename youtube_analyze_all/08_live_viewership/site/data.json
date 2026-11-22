@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-22T09:02:59.264863+00:00",
-    "n_snapshots": 146242,
+    "fetched_at": "2026-11-22T09:13:21.084407+00:00",
+    "n_snapshots": 146257,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-22T09:02:59.264863+00:00"
+      "2026-11-22T09:13:21.084407+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 134119,
-    "n_timepoints": 11439,
-    "span_hours": 2451.12,
-    "observed_hours": 1961.85,
+    "n_snapshots": 134133,
+    "n_timepoints": 11440,
+    "span_hours": 2451.29,
+    "observed_hours": 1962.02,
     "coverage_ratio": 0.8,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30427,
+    "n_live_rows": 30428,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-22T09:02:59.264863+00:00"
+    "last": "2026-11-22T09:13:21.084407+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,14 +31,14 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185809,
-      "follower_delta": 144601,
-      "follower_per_day": 3683.5,
+      "followers": 185812,
+      "follower_delta": 144604,
+      "follower_per_day": 3682.9,
       "n_sessions": 36,
       "n_live_points": 992,
       "peak_ccu": 79149,
       "avg_ccu": 12666,
-      "ccu_per_1k_followers": 425.97
+      "ccu_per_1k_followers": 425.96
     },
     {
       "rank": 2,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 147374,
       "follower_delta": 107206,
-      "follower_per_day": 2731.0,
+      "follower_per_day": 2730.5,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -59,36 +59,36 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 146690,
-      "follower_delta": 106573,
-      "follower_per_day": 2714.8,
+      "followers": 146706,
+      "follower_delta": 106589,
+      "follower_per_day": 2714.7,
       "n_sessions": 36,
-      "n_live_points": 1125,
+      "n_live_points": 1126,
       "peak_ccu": 62637,
-      "avg_ccu": 6827,
-      "ccu_per_1k_followers": 427.0
+      "avg_ccu": 6836,
+      "ccu_per_1k_followers": 426.96
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 166938,
-      "follower_delta": 127780,
-      "follower_per_day": 3255.1,
+      "followers": 166942,
+      "follower_delta": 127784,
+      "follower_per_day": 3254.6,
       "n_sessions": 41,
       "n_live_points": 1086,
       "peak_ccu": 60712,
       "avg_ccu": 15385,
-      "ccu_per_1k_followers": 363.68
+      "ccu_per_1k_followers": 363.67
     },
     {
       "rank": 5,
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 184206,
-      "follower_delta": 27465,
+      "followers": 184208,
+      "follower_delta": 27467,
       "follower_per_day": 268.9,
       "n_sessions": 107,
       "n_live_points": 1950,
@@ -115,9 +115,9 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 237815,
-      "follower_delta": 28480,
-      "follower_per_day": 278.9,
+      "followers": 237814,
+      "follower_delta": 28479,
+      "follower_per_day": 278.8,
       "n_sessions": 171,
       "n_live_points": 3158,
       "peak_ccu": 33491,
@@ -143,14 +143,14 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 239104,
-      "follower_delta": 31678,
-      "follower_per_day": 310.2,
+      "followers": 239103,
+      "follower_delta": 31677,
+      "follower_per_day": 310.1,
       "n_sessions": 146,
       "n_live_points": 2568,
       "peak_ccu": 24385,
       "avg_ccu": 3735,
-      "ccu_per_1k_followers": 101.98
+      "ccu_per_1k_followers": 101.99
     },
     {
       "rank": 10,
@@ -171,9 +171,9 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 265675,
-      "follower_delta": 24558,
-      "follower_per_day": 240.5,
+      "followers": 265674,
+      "follower_delta": 24557,
+      "follower_per_day": 240.4,
       "n_sessions": 152,
       "n_live_points": 2918,
       "peak_ccu": 15159,
@@ -185,8 +185,8 @@
       "name_ko": "시라유키 히나",
       "name_en": "Shirayuki Hina",
       "unit": "UNIVERSE",
-      "followers": 255485,
-      "follower_delta": 18637,
+      "followers": 255484,
+      "follower_delta": 18636,
       "follower_per_day": 182.5,
       "n_sessions": 185,
       "n_live_points": 2963,
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 324699,
-      "follower_delta": 22779,
+      "followers": 324698,
+      "follower_delta": 22778,
       "follower_per_day": 223.0,
       "n_sessions": 155,
       "n_live_points": 2898,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 246011,
-      "follower_delta": 26911,
+      "followers": 246012,
+      "follower_delta": 26912,
       "follower_per_day": 263.5,
       "n_sessions": 143,
       "n_live_points": 2199,
@@ -775,6 +775,18 @@
       "avg_ccu": 8398,
       "title": "✨한강 불꽃놀이 함께 봐요 (ﾉ*ФωФ)ﾉ✨",
       "category": "여행"
+    },
+    {
+      "name_ko": "시즈키 토아",
+      "name_en": "Shizuki Toa",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-22 18:02",
+      "observed_min": 10.4,
+      "n_points": 2,
+      "peak_ccu": 16185,
+      "avg_ccu": 13550,
+      "title": "🩷 1122 토아 생일파티래 부마야 🩷",
+      "category": "talk"
     },
     {
       "name_ko": "하나요 히요리",
@@ -1494,18 +1506,6 @@
       "peak_ccu": 10944,
       "avg_ccu": 8486,
       "title": "왕 오늘 빨리 왔따!!",
-      "category": "talk"
-    },
-    {
-      "name_ko": "시즈키 토아",
-      "name_en": "Shizuki Toa",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-22 18:02",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 10916,
-      "avg_ccu": 10916,
-      "title": "🩷 1122 토아 생일파티래 부마야 🩷",
       "category": "talk"
     },
     {
@@ -113658,6 +113658,10 @@
         [
           "2026-11-22 18:02",
           10916
+        ],
+        [
+          "2026-11-22 18:13",
+          16185
         ]
       ]
     },

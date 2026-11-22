@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-22T17:37:15.789123+00:00",
-    "n_snapshots": 146857,
+    "fetched_at": "2026-11-22T17:47:35.208436+00:00",
+    "n_snapshots": 146872,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-22T17:37:15.789123+00:00"
+      "2026-11-22T17:47:35.208436+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 134693,
-    "n_timepoints": 11480,
-    "span_hours": 2459.69,
-    "observed_hours": 1969.03,
+    "n_snapshots": 134707,
+    "n_timepoints": 11481,
+    "span_hours": 2459.87,
+    "observed_hours": 1969.2,
     "coverage_ratio": 0.801,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30539,
+    "n_live_rows": 30542,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-22T17:37:15.789123+00:00"
+    "last": "2026-11-22T17:47:35.208436+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,64 +31,64 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 185990,
-      "follower_delta": 144782,
-      "follower_per_day": 3654.9,
+      "followers": 185993,
+      "follower_delta": 144785,
+      "follower_per_day": 3654.3,
       "n_sessions": 36,
       "n_live_points": 992,
       "peak_ccu": 79149,
       "avg_ccu": 12666,
-      "ccu_per_1k_followers": 425.56
+      "ccu_per_1k_followers": 425.55
     },
     {
       "rank": 2,
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 147516,
-      "follower_delta": 107348,
-      "follower_per_day": 2709.9,
+      "followers": 147518,
+      "follower_delta": 107350,
+      "follower_per_day": 2709.5,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
       "avg_ccu": 6097,
-      "ccu_per_1k_followers": 460.63
+      "ccu_per_1k_followers": 460.62
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 147220,
-      "follower_delta": 107103,
-      "follower_per_day": 2703.7,
+      "followers": 147224,
+      "follower_delta": 107107,
+      "follower_per_day": 2703.3,
       "n_sessions": 37,
-      "n_live_points": 1163,
+      "n_live_points": 1164,
       "peak_ccu": 62637,
-      "avg_ccu": 6921,
-      "ccu_per_1k_followers": 425.47
+      "avg_ccu": 6919,
+      "ccu_per_1k_followers": 425.45
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 167381,
-      "follower_delta": 128223,
-      "follower_per_day": 3236.9,
+      "followers": 167395,
+      "follower_delta": 128237,
+      "follower_per_day": 3236.7,
       "n_sessions": 42,
-      "n_live_points": 1107,
+      "n_live_points": 1108,
       "peak_ccu": 60712,
-      "avg_ccu": 15370,
-      "ccu_per_1k_followers": 362.72
+      "avg_ccu": 15369,
+      "ccu_per_1k_followers": 362.69
     },
     {
       "rank": 5,
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 184309,
-      "follower_delta": 27568,
+      "followers": 184310,
+      "follower_delta": 27569,
       "follower_per_day": 269.0,
       "n_sessions": 107,
       "n_live_points": 1950,
@@ -101,8 +101,8 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 283115,
-      "follower_delta": 27789,
+      "followers": 283117,
+      "follower_delta": 27791,
       "follower_per_day": 271.1,
       "n_sessions": 173,
       "n_live_points": 3287,
@@ -143,8 +143,8 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 239204,
-      "follower_delta": 31778,
+      "followers": 239205,
+      "follower_delta": 31779,
       "follower_per_day": 310.1,
       "n_sessions": 146,
       "n_live_points": 2568,
@@ -185,8 +185,8 @@
       "name_ko": "시라유키 히나",
       "name_en": "Shirayuki Hina",
       "unit": "UNIVERSE",
-      "followers": 255567,
-      "follower_delta": 18719,
+      "followers": 255568,
+      "follower_delta": 18720,
       "follower_per_day": 182.6,
       "n_sessions": 185,
       "n_live_points": 2963,
@@ -199,9 +199,9 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 324812,
-      "follower_delta": 22892,
-      "follower_per_day": 223.4,
+      "followers": 324811,
+      "follower_delta": 22891,
+      "follower_per_day": 223.3,
       "n_sessions": 155,
       "n_live_points": 2898,
       "peak_ccu": 12362,
@@ -213,11 +213,11 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 246203,
-      "follower_delta": 27103,
+      "followers": 246207,
+      "follower_delta": 27107,
       "follower_per_day": 264.5,
       "n_sessions": 144,
-      "n_live_points": 2226,
+      "n_live_points": 2227,
       "peak_ccu": 9414,
       "avg_ccu": 3309,
       "ccu_per_1k_followers": 38.24
@@ -781,10 +781,10 @@
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
       "start_kst": "2026-11-22 23:10",
-      "observed_min": 206.5,
-      "n_points": 21,
+      "observed_min": 216.8,
+      "n_points": 22,
       "peak_ccu": 16556,
-      "avg_ccu": 14564,
+      "avg_ccu": 14572,
       "title": "애니 노래 OST 월드컵 까자!!!!!!",
       "category": "talk"
     },
@@ -2581,10 +2581,10 @@
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
       "start_kst": "2026-11-22 21:58",
-      "observed_min": 278.8,
-      "n_points": 28,
+      "observed_min": 289.2,
+      "n_points": 29,
       "peak_ccu": 8072,
-      "avg_ccu": 5922,
+      "avg_ccu": 5879,
       "title": "오래 기다려찌",
       "category": "talk"
     },
@@ -4333,10 +4333,10 @@
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
       "start_kst": "2026-11-22 22:08",
-      "observed_min": 268.5,
-      "n_points": 27,
+      "observed_min": 278.8,
+      "n_points": 28,
       "peak_ccu": 6443,
-      "avg_ccu": 5161,
+      "avg_ccu": 5120,
       "title": "배부르닷",
       "category": "talk"
     },
@@ -37045,6 +37045,10 @@
         [
           "2026-11-23 02:37",
           4499
+        ],
+        [
+          "2026-11-23 02:47",
+          4001
         ]
       ]
     },
@@ -81506,6 +81510,10 @@
         [
           "2026-11-23 02:37",
           14996
+        ],
+        [
+          "2026-11-23 02:47",
+          14737
         ]
       ]
     },
@@ -114050,6 +114058,10 @@
         [
           "2026-11-23 02:37",
           4687
+        ],
+        [
+          "2026-11-23 02:47",
+          4669
         ]
       ]
     },

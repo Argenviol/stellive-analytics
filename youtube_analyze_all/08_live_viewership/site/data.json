@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-23T02:20:01.536431+00:00",
-    "n_snapshots": 147142,
+    "fetched_at": "2026-11-23T02:30:22.414674+00:00",
+    "n_snapshots": 147157,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-23T02:20:01.536431+00:00"
+      "2026-11-23T02:30:22.414674+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 134959,
-    "n_timepoints": 11499,
-    "span_hours": 2468.41,
-    "observed_hours": 1972.33,
+    "n_snapshots": 134973,
+    "n_timepoints": 11500,
+    "span_hours": 2468.58,
+    "observed_hours": 1972.5,
     "coverage_ratio": 0.799,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30564,
+    "n_live_rows": 30565,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-23T02:20:01.536431+00:00"
+    "last": "2026-11-23T02:30:22.414674+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 186034,
       "follower_delta": 144826,
-      "follower_per_day": 3622.8,
+      "follower_per_day": 3622.2,
       "n_sessions": 36,
       "n_live_points": 992,
       "peak_ccu": 79149,
@@ -45,9 +45,9 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 147556,
-      "follower_delta": 107388,
-      "follower_per_day": 2686.3,
+      "followers": 147557,
+      "follower_delta": 107389,
+      "follower_per_day": 2685.8,
       "n_sessions": 39,
       "n_live_points": 1249,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 147272,
       "follower_delta": 107155,
-      "follower_per_day": 2680.5,
+      "follower_per_day": 2680.0,
       "n_sessions": 37,
       "n_live_points": 1168,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 167756,
-      "follower_delta": 128598,
-      "follower_per_day": 3216.9,
+      "followers": 167761,
+      "follower_delta": 128603,
+      "follower_per_day": 3216.4,
       "n_sessions": 44,
-      "n_live_points": 1126,
+      "n_live_points": 1127,
       "peak_ccu": 60712,
-      "avg_ccu": 15319,
-      "ccu_per_1k_followers": 361.91
+      "avg_ccu": 15316,
+      "ccu_per_1k_followers": 361.9
     },
     {
       "rank": 5,
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 237949,
-      "follower_delta": 28614,
+      "followers": 237948,
+      "follower_delta": 28613,
       "follower_per_day": 278.2,
       "n_sessions": 171,
       "n_live_points": 3158,
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 233015,
-      "follower_delta": 23196,
+      "followers": 233016,
+      "follower_delta": 23197,
       "follower_per_day": 225.5,
       "n_sessions": 152,
       "n_live_points": 2055,
@@ -157,9 +157,9 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 280669,
-      "follower_delta": 27767,
-      "follower_per_day": 270.0,
+      "followers": 280668,
+      "follower_delta": 27766,
+      "follower_per_day": 269.9,
       "n_sessions": 126,
       "n_live_points": 1979,
       "peak_ccu": 18587,
@@ -213,8 +213,8 @@
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
-      "followers": 246224,
-      "follower_delta": 27124,
+      "followers": 246225,
+      "follower_delta": 27125,
       "follower_per_day": 263.7,
       "n_sessions": 144,
       "n_live_points": 2227,
@@ -1281,6 +1281,18 @@
       "category": "talk"
     },
     {
+      "name_ko": "하나요 히요리",
+      "name_en": "Hanayo Hiyori",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-23 10:17",
+      "observed_min": 72.4,
+      "n_points": 8,
+      "peak_ccu": 12095,
+      "avg_ccu": 11690,
+      "title": "애니 노래 OST 월드컵 까자!!!!!!",
+      "category": "talk"
+    },
+    {
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
@@ -1290,18 +1302,6 @@
       "peak_ccu": 12040,
       "avg_ccu": 9351,
       "title": "품격 있으신 분들만 입장",
-      "category": "talk"
-    },
-    {
-      "name_ko": "하나요 히요리",
-      "name_en": "Hanayo Hiyori",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-23 10:17",
-      "observed_min": 62.1,
-      "n_points": 7,
-      "peak_ccu": 11998,
-      "avg_ccu": 11632,
-      "title": "애니 노래 OST 월드컵 까자!!!!!!",
       "category": "talk"
     },
     {
@@ -81610,6 +81610,10 @@
         [
           "2026-11-23 11:20",
           11998
+        ],
+        [
+          "2026-11-23 11:30",
+          12095
         ]
       ]
     },

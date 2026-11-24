@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-24T20:56:37.301306+00:00",
-    "n_snapshots": 149242,
+    "fetched_at": "2026-11-24T21:06:57.907048+00:00",
+    "n_snapshots": 149257,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-24T20:56:37.301306+00:00"
+      "2026-11-24T21:06:57.907048+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 136919,
-    "n_timepoints": 11639,
-    "span_hours": 2511.02,
-    "observed_hours": 1996.7,
+    "n_snapshots": 136933,
+    "n_timepoints": 11640,
+    "span_hours": 2511.19,
+    "observed_hours": 1996.87,
     "coverage_ratio": 0.795,
     "largest_gap_hours": 11.3,
     "n_live_rows": 30973,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-24T20:56:37.301306+00:00"
+    "last": "2026-11-24T21:06:57.907048+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 186609,
-      "follower_delta": 145401,
-      "follower_per_day": 3482.5,
+      "followers": 186610,
+      "follower_delta": 145402,
+      "follower_per_day": 3482.0,
       "n_sessions": 37,
       "n_live_points": 1000,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148073,
       "follower_delta": 107905,
-      "follower_per_day": 2584.5,
+      "follower_per_day": 2584.0,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 147574,
       "follower_delta": 107457,
-      "follower_per_day": 2573.7,
+      "follower_per_day": 2573.3,
       "n_sessions": 37,
       "n_live_points": 1168,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168432,
-      "follower_delta": 129274,
-      "follower_per_day": 3096.3,
+      "followers": 168431,
+      "follower_delta": 129273,
+      "follower_per_day": 3095.7,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
       "avg_ccu": 15302,
-      "ccu_per_1k_followers": 360.45
+      "ccu_per_1k_followers": 360.46
     },
     {
       "rank": 5,
@@ -159,7 +159,7 @@
       "unit": "UNIVERSE",
       "followers": 280916,
       "follower_delta": 28014,
-      "follower_per_day": 267.8,
+      "follower_per_day": 267.7,
       "n_sessions": 127,
       "n_live_points": 1986,
       "peak_ccu": 18587,

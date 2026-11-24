@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-24T19:13:11.155206+00:00",
-    "n_snapshots": 149092,
+    "fetched_at": "2026-11-24T19:23:31.903509+00:00",
+    "n_snapshots": 149107,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-24T19:13:11.155206+00:00"
+      "2026-11-24T19:23:31.903509+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 136779,
-    "n_timepoints": 11629,
-    "span_hours": 2509.29,
-    "observed_hours": 1994.96,
+    "n_snapshots": 136793,
+    "n_timepoints": 11630,
+    "span_hours": 2509.46,
+    "observed_hours": 1995.14,
     "coverage_ratio": 0.795,
     "largest_gap_hours": 11.3,
     "n_live_rows": 30973,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-24T19:13:11.155206+00:00"
+    "last": "2026-11-24T19:23:31.903509+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 186609,
       "follower_delta": 145401,
-      "follower_per_day": 3488.5,
+      "follower_per_day": 3487.9,
       "n_sessions": 37,
       "n_live_points": 1000,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148068,
       "follower_delta": 107900,
-      "follower_per_day": 2588.8,
+      "follower_per_day": 2588.3,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 147570,
       "follower_delta": 107453,
-      "follower_per_day": 2578.1,
+      "follower_per_day": 2577.6,
       "n_sessions": 37,
       "n_live_points": 1168,
       "peak_ccu": 62637,
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168426,
-      "follower_delta": 129268,
-      "follower_per_day": 3101.5,
+      "followers": 168427,
+      "follower_delta": 129269,
+      "follower_per_day": 3101.0,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
       "avg_ccu": 15302,
-      "ccu_per_1k_followers": 360.47
+      "ccu_per_1k_followers": 360.46
     },
     {
       "rank": 5,
@@ -103,7 +103,7 @@
       "unit": "UNIVERSE",
       "followers": 283405,
       "follower_delta": 28079,
-      "follower_per_day": 268.6,
+      "follower_per_day": 268.5,
       "n_sessions": 175,
       "n_live_points": 3345,
       "peak_ccu": 38237,

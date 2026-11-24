@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-24T20:35:54.665246+00:00",
-    "n_snapshots": 149212,
+    "fetched_at": "2026-11-24T20:46:16.686794+00:00",
+    "n_snapshots": 149227,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-24T20:35:54.665246+00:00"
+      "2026-11-24T20:46:16.686794+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 136891,
-    "n_timepoints": 11637,
-    "span_hours": 2510.67,
-    "observed_hours": 1996.35,
+    "n_snapshots": 136905,
+    "n_timepoints": 11638,
+    "span_hours": 2510.84,
+    "observed_hours": 1996.53,
     "coverage_ratio": 0.795,
     "largest_gap_hours": 11.3,
     "n_live_rows": 30973,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-24T20:35:54.665246+00:00"
+    "last": "2026-11-24T20:46:16.686794+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 186609,
       "follower_delta": 145401,
-      "follower_per_day": 3483.7,
+      "follower_per_day": 3483.1,
       "n_sessions": 37,
       "n_live_points": 1000,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148073,
       "follower_delta": 107905,
-      "follower_per_day": 2585.3,
+      "follower_per_day": 2584.9,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 147574,
       "follower_delta": 107457,
-      "follower_per_day": 2574.6,
+      "follower_per_day": 2574.2,
       "n_sessions": 37,
       "n_live_points": 1168,
       "peak_ccu": 62637,
@@ -75,7 +75,7 @@
       "unit": "ABYSS",
       "followers": 168432,
       "follower_delta": 129274,
-      "follower_per_day": 3097.3,
+      "follower_per_day": 3096.8,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
@@ -201,7 +201,7 @@
       "unit": "EVERYS",
       "followers": 325045,
       "follower_delta": 23125,
-      "follower_per_day": 221.1,
+      "follower_per_day": 221.0,
       "n_sessions": 157,
       "n_live_points": 2932,
       "peak_ccu": 12362,

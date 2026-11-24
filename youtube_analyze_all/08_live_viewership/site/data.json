@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-24T20:25:34.659835+00:00",
-    "n_snapshots": 149197,
+    "fetched_at": "2026-11-24T20:35:54.665246+00:00",
+    "n_snapshots": 149212,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-24T20:25:34.659835+00:00"
+      "2026-11-24T20:35:54.665246+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 136877,
-    "n_timepoints": 11636,
-    "span_hours": 2510.5,
-    "observed_hours": 1996.18,
+    "n_snapshots": 136891,
+    "n_timepoints": 11637,
+    "span_hours": 2510.67,
+    "observed_hours": 1996.35,
     "coverage_ratio": 0.795,
     "largest_gap_hours": 11.3,
     "n_live_rows": 30973,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-24T20:25:34.659835+00:00"
+    "last": "2026-11-24T20:35:54.665246+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -33,7 +33,7 @@
       "unit": "ABYSS",
       "followers": 186609,
       "follower_delta": 145401,
-      "follower_per_day": 3484.3,
+      "follower_per_day": 3483.7,
       "n_sessions": 37,
       "n_live_points": 1000,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148073,
       "follower_delta": 107905,
-      "follower_per_day": 2585.8,
+      "follower_per_day": 2585.3,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -59,28 +59,28 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 147573,
-      "follower_delta": 107456,
-      "follower_per_day": 2575.0,
+      "followers": 147574,
+      "follower_delta": 107457,
+      "follower_per_day": 2574.6,
       "n_sessions": 37,
       "n_live_points": 1168,
       "peak_ccu": 62637,
       "avg_ccu": 6910,
-      "ccu_per_1k_followers": 424.45
+      "ccu_per_1k_followers": 424.44
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168431,
-      "follower_delta": 129273,
-      "follower_per_day": 3097.8,
+      "followers": 168432,
+      "follower_delta": 129274,
+      "follower_per_day": 3097.3,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
       "avg_ccu": 15302,
-      "ccu_per_1k_followers": 360.46
+      "ccu_per_1k_followers": 360.45
     },
     {
       "rank": 5,
@@ -143,8 +143,8 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 239685,
-      "follower_delta": 32259,
+      "followers": 239686,
+      "follower_delta": 32260,
       "follower_per_day": 308.4,
       "n_sessions": 148,
       "n_live_points": 2626,

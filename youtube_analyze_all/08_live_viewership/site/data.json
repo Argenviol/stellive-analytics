@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-25T15:35:18.785281+00:00",
-    "n_snapshots": 150337,
+    "fetched_at": "2026-11-25T15:45:41.948920+00:00",
+    "n_snapshots": 150352,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-25T15:35:18.785281+00:00"
+      "2026-11-25T15:45:41.948920+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 137941,
-    "n_timepoints": 11712,
-    "span_hours": 2529.66,
-    "observed_hours": 2009.39,
+    "n_snapshots": 137955,
+    "n_timepoints": 11713,
+    "span_hours": 2529.83,
+    "observed_hours": 2009.56,
     "coverage_ratio": 0.794,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 31170,
+    "n_live_rows": 31175,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-25T15:35:18.785281+00:00"
+    "last": "2026-11-25T15:45:41.948920+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,13 +31,13 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 186829,
-      "follower_delta": 145621,
-      "follower_per_day": 3424.1,
+      "followers": 186831,
+      "follower_delta": 145623,
+      "follower_per_day": 3423.6,
       "n_sessions": 38,
-      "n_live_points": 1022,
+      "n_live_points": 1023,
       "peak_ccu": 79149,
-      "avg_ccu": 12494,
+      "avg_ccu": 12489,
       "ccu_per_1k_followers": 423.64
     },
     {
@@ -45,9 +45,9 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 148184,
-      "follower_delta": 108016,
-      "follower_per_day": 2539.9,
+      "followers": 148185,
+      "follower_delta": 108017,
+      "follower_per_day": 2539.5,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -59,13 +59,13 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 147853,
-      "follower_delta": 107736,
-      "follower_per_day": 2533.3,
+      "followers": 147855,
+      "follower_delta": 107738,
+      "follower_per_day": 2532.9,
       "n_sessions": 39,
-      "n_live_points": 1205,
+      "n_live_points": 1206,
       "peak_ccu": 62637,
-      "avg_ccu": 6873,
+      "avg_ccu": 6871,
       "ccu_per_1k_followers": 423.64
     },
     {
@@ -73,14 +73,14 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168622,
-      "follower_delta": 129464,
-      "follower_per_day": 3044.2,
+      "followers": 168625,
+      "follower_delta": 129467,
+      "follower_per_day": 3043.7,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
       "avg_ccu": 15302,
-      "ccu_per_1k_followers": 360.05
+      "ccu_per_1k_followers": 360.04
     },
     {
       "rank": 5,
@@ -101,9 +101,9 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 283446,
-      "follower_delta": 28120,
-      "follower_per_day": 266.8,
+      "followers": 283443,
+      "follower_delta": 28117,
+      "follower_per_day": 266.7,
       "n_sessions": 175,
       "n_live_points": 3345,
       "peak_ccu": 38237,
@@ -115,11 +115,11 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 238336,
-      "follower_delta": 29001,
+      "followers": 238337,
+      "follower_delta": 29002,
       "follower_per_day": 275.1,
       "n_sessions": 174,
-      "n_live_points": 3229,
+      "n_live_points": 3230,
       "peak_ccu": 33491,
       "avg_ccu": 3322,
       "ccu_per_1k_followers": 140.52
@@ -129,8 +129,8 @@
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
-      "followers": 233219,
-      "follower_delta": 23400,
+      "followers": 233216,
+      "follower_delta": 23397,
       "follower_per_day": 222.0,
       "n_sessions": 153,
       "n_live_points": 2076,
@@ -143,9 +143,9 @@
       "name_ko": "하나코 나나",
       "name_en": "Hanako Nana",
       "unit": "CLICHE",
-      "followers": 239822,
-      "follower_delta": 32396,
-      "follower_per_day": 307.4,
+      "followers": 239820,
+      "follower_delta": 32394,
+      "follower_per_day": 307.3,
       "n_sessions": 149,
       "n_live_points": 2643,
       "peak_ccu": 24385,
@@ -157,13 +157,13 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 280979,
-      "follower_delta": 28077,
-      "follower_per_day": 266.4,
+      "followers": 280975,
+      "follower_delta": 28073,
+      "follower_per_day": 266.3,
       "n_sessions": 128,
-      "n_live_points": 2008,
+      "n_live_points": 2009,
       "peak_ccu": 18587,
-      "avg_ccu": 3496,
+      "avg_ccu": 3495,
       "ccu_per_1k_followers": 66.15
     },
     {
@@ -171,11 +171,11 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 266182,
-      "follower_delta": 25065,
+      "followers": 266181,
+      "follower_delta": 25064,
       "follower_per_day": 237.8,
       "n_sessions": 155,
-      "n_live_points": 2988,
+      "n_live_points": 2989,
       "peak_ccu": 15159,
       "avg_ccu": 5323,
       "ccu_per_1k_followers": 56.95
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 325163,
-      "follower_delta": 23243,
+      "followers": 325161,
+      "follower_delta": 23241,
       "follower_per_day": 220.5,
       "n_sessions": 158,
       "n_live_points": 2954,
@@ -2605,10 +2605,10 @@
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
       "start_kst": "2026-11-25 20:57",
-      "observed_min": 218.0,
-      "n_points": 22,
+      "observed_min": 228.4,
+      "n_points": 23,
       "peak_ccu": 8103,
-      "avg_ccu": 7002,
+      "avg_ccu": 6994,
       "title": "안뇨오오옹!!!!! 좋은 저녁이다아앗!!",
       "category": "talk"
     },
@@ -4669,10 +4669,10 @@
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
       "start_kst": "2026-11-25 20:57",
-      "observed_min": 218.0,
-      "n_points": 22,
+      "observed_min": 228.4,
+      "n_points": 23,
       "peak_ccu": 6267,
-      "avg_ccu": 5414,
+      "avg_ccu": 5409,
       "title": "즐거운 하루를 보내쟈",
       "category": "봄바나나!"
     },
@@ -5077,10 +5077,10 @@
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
       "start_kst": "2026-11-25 20:57",
-      "observed_min": 218.0,
-      "n_points": 22,
+      "observed_min": 228.4,
+      "n_points": 23,
       "peak_ccu": 6023,
-      "avg_ccu": 5121,
+      "avg_ccu": 5094,
       "title": "검도핑의 참백도 만들기",
       "category": "포지택스"
     },
@@ -11937,6 +11937,18 @@
       "category": "명조:워더링 웨이브"
     },
     {
+      "name_ko": "유즈하 리코",
+      "name_en": "Yuzuha Riko",
+      "unit": "CLICHE",
+      "start_kst": "2026-11-25 20:57",
+      "observed_min": 228.4,
+      "n_points": 23,
+      "peak_ccu": 3761,
+      "avg_ccu": 2778,
+      "title": "[광고] 명일방주: 엔드필드 새로운 버전 나왔대요!",
+      "category": "명일방주: 엔드필드"
+    },
+    {
       "name_ko": "네네코 마시로",
       "name_en": "Neneko Mashiro",
       "unit": "UNIVERSE",
@@ -11949,18 +11961,6 @@
       "category": "발로란트"
     },
     {
-      "name_ko": "아야츠노 유니",
-      "name_en": "Ayatsuno Yuni",
-      "unit": "EVERYS",
-      "start_kst": "2026-09-20 18:01",
-      "observed_min": 584.6,
-      "n_points": 60,
-      "peak_ccu": 3754,
-      "avg_ccu": 2375,
-      "title": "봉누도 6일차!  드디어 뭔가 시작하는 부산갈매기파 ",
-      "category": "Grand Theft Auto V"
-    },
-    {
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
@@ -11971,6 +11971,18 @@
       "avg_ccu": 2672,
       "title": "리코가 선배래",
       "category": "talk"
+    },
+    {
+      "name_ko": "아야츠노 유니",
+      "name_en": "Ayatsuno Yuni",
+      "unit": "EVERYS",
+      "start_kst": "2026-09-20 18:01",
+      "observed_min": 584.6,
+      "n_points": 60,
+      "peak_ccu": 3754,
+      "avg_ccu": 2375,
+      "title": "봉누도 6일차!  드디어 뭔가 시작하는 부산갈매기파 ",
+      "category": "Grand Theft Auto V"
     },
     {
       "name_ko": "시라유키 히나",
@@ -12033,18 +12045,6 @@
       "category": "마인크래프트"
     },
     {
-      "name_ko": "하나코 나나",
-      "name_en": "Hanako Nana",
-      "unit": "CLICHE",
-      "start_kst": "2026-09-03 00:15",
-      "observed_min": 143.0,
-      "n_points": 15,
-      "peak_ccu": 3745,
-      "avg_ccu": 2946,
-      "title": "몬스터가 너무 싫은 여자여도 잠자리채는 만들고 싶어",
-      "category": "마인크래프트"
-    },
-    {
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
@@ -12055,6 +12055,18 @@
       "avg_ccu": 3247,
       "title": "잠깐 옵치 하러온 사람 ",
       "category": "오버워치"
+    },
+    {
+      "name_ko": "하나코 나나",
+      "name_en": "Hanako Nana",
+      "unit": "CLICHE",
+      "start_kst": "2026-09-03 00:15",
+      "observed_min": 143.0,
+      "n_points": 15,
+      "peak_ccu": 3745,
+      "avg_ccu": 2946,
+      "title": "몬스터가 너무 싫은 여자여도 잠자리채는 만들고 싶어",
+      "category": "마인크래프트"
     },
     {
       "name_ko": "아야츠노 유니",
@@ -12213,18 +12225,6 @@
       "category": "talk"
     },
     {
-      "name_ko": "아라하시 타비",
-      "name_en": "Arahashi Tabi",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-08-17 17:55",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 3710,
-      "avg_ccu": 3710,
-      "title": "왜ㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐ째서 !!!!!!!!!!!!!!!!!",
-      "category": "talk"
-    },
-    {
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
@@ -12237,15 +12237,15 @@
       "category": "talk"
     },
     {
-      "name_ko": "아오쿠모 린",
-      "name_en": "Aokumo Rin",
-      "unit": "CLICHE",
-      "start_kst": "2026-09-08 00:23",
-      "observed_min": 10.5,
-      "n_points": 2,
-      "peak_ccu": 3707,
-      "avg_ccu": 3582,
-      "title": "일찍 일어날 수 있을까 내가",
+      "name_ko": "아라하시 타비",
+      "name_en": "Arahashi Tabi",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-08-17 17:55",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 3710,
+      "avg_ccu": 3710,
+      "title": "왜ㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐㅐ째서 !!!!!!!!!!!!!!!!!",
       "category": "talk"
     },
     {
@@ -12259,6 +12259,18 @@
       "avg_ccu": 2477,
       "title": "봉누도 막막날 ",
       "category": "Grand Theft Auto V"
+    },
+    {
+      "name_ko": "아오쿠모 린",
+      "name_en": "Aokumo Rin",
+      "unit": "CLICHE",
+      "start_kst": "2026-09-08 00:23",
+      "observed_min": 10.5,
+      "n_points": 2,
+      "peak_ccu": 3707,
+      "avg_ccu": 3582,
+      "title": "일찍 일어날 수 있을까 내가",
+      "category": "talk"
     },
     {
       "name_ko": "하나코 나나",
@@ -12297,18 +12309,6 @@
       "category": "낚시 방법"
     },
     {
-      "name_ko": "네네코 마시로",
-      "name_en": "Neneko Mashiro",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-08-21 23:04",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 3691,
-      "avg_ccu": 3691,
-      "title": "구스구스덕 합방! 춘스터콜",
-      "category": "구스 구스 덕"
-    },
-    {
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
@@ -12319,6 +12319,18 @@
       "avg_ccu": 3688,
       "title": "애들이랑 낚시할거에용 (w. 부키, 리코)",
       "category": "낚시 방법"
+    },
+    {
+      "name_ko": "네네코 마시로",
+      "name_en": "Neneko Mashiro",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-08-21 23:04",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 3691,
+      "avg_ccu": 3691,
+      "title": "구스구스덕 합방! 춘스터콜",
+      "category": "구스 구스 덕"
     },
     {
       "name_ko": "아야츠노 유니",
@@ -12427,18 +12439,6 @@
       "avg_ccu": 3653,
       "title": "답답해서 내가 뛴다 김상덕 MLB 더쇼 26 ",
       "category": "MLB 더 쇼 26"
-    },
-    {
-      "name_ko": "유즈하 리코",
-      "name_en": "Yuzuha Riko",
-      "unit": "CLICHE",
-      "start_kst": "2026-11-25 20:57",
-      "observed_min": 218.0,
-      "n_points": 22,
-      "peak_ccu": 3646,
-      "avg_ccu": 2733,
-      "title": "[광고] 명일방주: 엔드필드 새로운 버전 나왔대요!",
-      "category": "명일방주: 엔드필드"
     },
     {
       "name_ko": "아야츠노 유니",
@@ -17829,16 +17829,16 @@
       "category": "로블록스"
     },
     {
-      "name_ko": "사키하네 후야",
-      "name_en": "Sakihane Huya",
-      "unit": "EVERYS",
-      "start_kst": "2026-08-19 16:58",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 2568,
-      "avg_ccu": 2568,
-      "title": "바쿠쿠 바쿠바쿠 바쿠쿠",
-      "category": "talk"
+      "name_ko": "아카네 리제",
+      "name_en": "Akane Lize",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-11-25 20:57",
+      "observed_min": 228.4,
+      "n_points": 23,
+      "peak_ccu": 2575,
+      "avg_ccu": 2328,
+      "title": "🍥🍜이랏쌰이마세~!! 일본 라멘가게 시뮬겜🍜🍥",
+      "category": "재패니즈 라멘 시뮬레이터"
     },
     {
       "name_ko": "시라유키 히나",
@@ -17850,6 +17850,18 @@
       "peak_ccu": 2568,
       "avg_ccu": 2568,
       "title": "안녕하새요...",
+      "category": "talk"
+    },
+    {
+      "name_ko": "사키하네 후야",
+      "name_en": "Sakihane Huya",
+      "unit": "EVERYS",
+      "start_kst": "2026-08-19 16:58",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 2568,
+      "avg_ccu": 2568,
+      "title": "바쿠쿠 바쿠바쿠 바쿠쿠",
       "category": "talk"
     },
     {
@@ -17973,18 +17985,6 @@
       "category": "빅 워크"
     },
     {
-      "name_ko": "유즈하 리코",
-      "name_en": "Yuzuha Riko",
-      "unit": "CLICHE",
-      "start_kst": "2026-08-26 02:37",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 2542,
-      "avg_ccu": 2542,
-      "title": "[떠비큐어] 무한섬 연습하기이",
-      "category": "이터널 리턴"
-    },
-    {
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
@@ -18000,13 +18000,13 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "start_kst": "2026-08-24 01:35",
-      "observed_min": 24.1,
-      "n_points": 2,
-      "peak_ccu": 2540,
-      "avg_ccu": 2400,
-      "title": "잼민이",
-      "category": "로블록스"
+      "start_kst": "2026-08-26 02:37",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 2542,
+      "avg_ccu": 2542,
+      "title": "[떠비큐어] 무한섬 연습하기이",
+      "category": "이터널 리턴"
     },
     {
       "name_ko": "네네코 마시로",
@@ -18021,6 +18021,18 @@
       "category": "talk"
     },
     {
+      "name_ko": "유즈하 리코",
+      "name_en": "Yuzuha Riko",
+      "unit": "CLICHE",
+      "start_kst": "2026-08-24 01:35",
+      "observed_min": 24.1,
+      "n_points": 2,
+      "peak_ccu": 2540,
+      "avg_ccu": 2400,
+      "title": "잼민이",
+      "category": "로블록스"
+    },
+    {
       "name_ko": "아오쿠모 린",
       "name_en": "Aokumo Rin",
       "unit": "CLICHE",
@@ -18031,18 +18043,6 @@
       "avg_ccu": 2531,
       "title": "[수동암즈] 이리 대회 연습 2일차",
       "category": "이터널 리턴"
-    },
-    {
-      "name_ko": "아카네 리제",
-      "name_en": "Akane Lize",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-11-16 00:59",
-      "observed_min": 155.3,
-      "n_points": 16,
-      "peak_ccu": 2529,
-      "avg_ccu": 2384,
-      "title": "돈 없으면 리제 써야지 연락주세요 미드정글서폿 가능합니다.",
-      "category": "리그 오브 레전드"
     },
     {
       "name_ko": "유즈하 리코",
@@ -18084,13 +18084,13 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "start_kst": "2026-11-25 20:57",
-      "observed_min": 218.0,
-      "n_points": 22,
+      "start_kst": "2026-11-16 00:59",
+      "observed_min": 155.3,
+      "n_points": 16,
       "peak_ccu": 2529,
-      "avg_ccu": 2317,
-      "title": "🍥🍜이랏쌰이마세~!! 일본 라멘가게 시뮬겜🍜🍥",
-      "category": "재패니즈 라멘 시뮬레이터"
+      "avg_ccu": 2384,
+      "title": "돈 없으면 리제 써야지 연락주세요 미드정글서폿 가능합니다.",
+      "category": "리그 오브 레전드"
     },
     {
       "name_ko": "시라유키 히나",
@@ -28612,6 +28612,10 @@
         [
           "2026-11-26 00:35",
           2478
+        ],
+        [
+          "2026-11-26 00:45",
+          2575
         ]
       ]
     },
@@ -116354,6 +116358,10 @@
         [
           "2026-11-26 00:35",
           5342
+        ],
+        [
+          "2026-11-26 00:45",
+          5308
         ]
       ]
     },
@@ -128311,6 +128319,10 @@
         [
           "2026-11-26 00:35",
           4379
+        ],
+        [
+          "2026-11-26 00:45",
+          4500
         ]
       ]
     },
@@ -132404,6 +132416,10 @@
         [
           "2026-11-26 00:35",
           6850
+        ],
+        [
+          "2026-11-26 00:45",
+          6805
         ]
       ]
     },
@@ -145325,6 +145341,10 @@
         [
           "2026-11-26 00:35",
           3646
+        ],
+        [
+          "2026-11-26 00:45",
+          3761
         ]
       ]
     }

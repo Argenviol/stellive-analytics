@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-25T07:33:12.957473+00:00",
-    "n_snapshots": 149932,
+    "fetched_at": "2026-11-25T07:43:34.533785+00:00",
+    "n_snapshots": 149947,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-25T07:33:12.957473+00:00"
+      "2026-11-25T07:43:34.533785+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 137563,
-    "n_timepoints": 11685,
-    "span_hours": 2521.63,
-    "observed_hours": 2004.68,
+    "n_snapshots": 137577,
+    "n_timepoints": 11686,
+    "span_hours": 2521.8,
+    "observed_hours": 2004.85,
     "coverage_ratio": 0.795,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 30983,
+    "n_live_rows": 30984,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-25T07:33:12.957473+00:00"
+    "last": "2026-11-25T07:43:34.533785+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 186664,
-      "follower_delta": 145456,
-      "follower_per_day": 3447.3,
+      "followers": 186665,
+      "follower_delta": 145457,
+      "follower_per_day": 3446.8,
       "n_sessions": 37,
       "n_live_points": 1000,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148113,
       "follower_delta": 107945,
-      "follower_per_day": 2558.3,
+      "follower_per_day": 2557.9,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -59,23 +59,23 @@
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 147646,
-      "follower_delta": 107529,
-      "follower_per_day": 2548.5,
+      "followers": 147652,
+      "follower_delta": 107535,
+      "follower_per_day": 2548.2,
       "n_sessions": 38,
-      "n_live_points": 1178,
+      "n_live_points": 1179,
       "peak_ccu": 62637,
-      "avg_ccu": 6897,
-      "ccu_per_1k_followers": 424.24
+      "avg_ccu": 6898,
+      "ccu_per_1k_followers": 424.22
     },
     {
       "rank": 4,
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168491,
-      "follower_delta": 129333,
-      "follower_per_day": 3065.2,
+      "followers": 168492,
+      "follower_delta": 129334,
+      "follower_per_day": 3064.7,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
@@ -115,8 +115,8 @@
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
-      "followers": 238286,
-      "follower_delta": 28951,
+      "followers": 238285,
+      "follower_delta": 28950,
       "follower_per_day": 275.5,
       "n_sessions": 173,
       "n_live_points": 3207,
@@ -157,9 +157,9 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 280940,
-      "follower_delta": 28038,
-      "follower_per_day": 266.9,
+      "followers": 280941,
+      "follower_delta": 28039,
+      "follower_per_day": 266.8,
       "n_sessions": 127,
       "n_live_points": 1986,
       "peak_ccu": 18587,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 266107,
-      "follower_delta": 24990,
+      "followers": 266106,
+      "follower_delta": 24989,
       "follower_per_day": 237.8,
       "n_sessions": 154,
       "n_live_points": 2966,
@@ -187,7 +187,7 @@
       "unit": "UNIVERSE",
       "followers": 255819,
       "follower_delta": 18971,
-      "follower_per_day": 180.6,
+      "follower_per_day": 180.5,
       "n_sessions": 187,
       "n_live_points": 3010,
       "peak_ccu": 13185,
@@ -201,7 +201,7 @@
       "unit": "EVERYS",
       "followers": 325072,
       "follower_delta": 23152,
-      "follower_per_day": 220.4,
+      "follower_per_day": 220.3,
       "n_sessions": 157,
       "n_live_points": 2932,
       "peak_ccu": 12362,
@@ -2913,6 +2913,18 @@
       "category": "Grand Theft Auto V"
     },
     {
+      "name_ko": "시즈키 토아",
+      "name_en": "Shizuki Toa",
+      "unit": "ABYSS",
+      "start_kst": "2026-11-25 15:00",
+      "observed_min": 103.4,
+      "n_points": 11,
+      "peak_ccu": 7637,
+      "avg_ccu": 5589,
+      "title": "즐거운 하루를 보내쟈",
+      "category": "talk"
+    },
+    {
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
@@ -3105,18 +3117,6 @@
       "category": "talk"
     },
     {
-      "name_ko": "시라유키 히나",
-      "name_en": "Shirayuki Hina",
-      "unit": "UNIVERSE",
-      "start_kst": "2026-08-15 22:19",
-      "observed_min": 0.0,
-      "n_points": 1,
-      "peak_ccu": 7472,
-      "avg_ccu": 7472,
-      "title": "추억의 애니(추억별로없음) 더빙 월드컵",
-      "category": "talk"
-    },
-    {
       "name_ko": "유즈하 리코",
       "name_en": "Yuzuha Riko",
       "unit": "CLICHE",
@@ -3141,6 +3141,18 @@
       "category": "더 게임 오브 시시포스"
     },
     {
+      "name_ko": "시라유키 히나",
+      "name_en": "Shirayuki Hina",
+      "unit": "UNIVERSE",
+      "start_kst": "2026-08-15 22:19",
+      "observed_min": 0.0,
+      "n_points": 1,
+      "peak_ccu": 7472,
+      "avg_ccu": 7472,
+      "title": "추억의 애니(추억별로없음) 더빙 월드컵",
+      "category": "talk"
+    },
+    {
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
@@ -3150,18 +3162,6 @@
       "peak_ccu": 7469,
       "avg_ccu": 5752,
       "title": "호들호들호들호들호들",
-      "category": "talk"
-    },
-    {
-      "name_ko": "시즈키 토아",
-      "name_en": "Shizuki Toa",
-      "unit": "ABYSS",
-      "start_kst": "2026-11-25 15:00",
-      "observed_min": 93.1,
-      "n_points": 10,
-      "peak_ccu": 7445,
-      "avg_ccu": 5385,
-      "title": "즐거운 하루를 보내쟈",
       "category": "talk"
     },
     {
@@ -115762,6 +115762,10 @@
         [
           "2026-11-25 16:33",
           7445
+        ],
+        [
+          "2026-11-25 16:43",
+          7637
         ]
       ]
     },

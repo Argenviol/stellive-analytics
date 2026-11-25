@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-25T22:54:58.081189+00:00",
-    "n_snapshots": 150682,
+    "fetched_at": "2026-11-25T23:05:18.667606+00:00",
+    "n_snapshots": 150697,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-25T22:54:58.081189+00:00"
+      "2026-11-25T23:05:18.667606+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 138263,
-    "n_timepoints": 11735,
-    "span_hours": 2536.99,
-    "observed_hours": 2013.42,
+    "n_snapshots": 138277,
+    "n_timepoints": 11736,
+    "span_hours": 2537.16,
+    "observed_hours": 2013.6,
     "coverage_ratio": 0.794,
     "largest_gap_hours": 11.3,
     "n_live_rows": 31213,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-25T22:54:58.081189+00:00"
+    "last": "2026-11-25T23:05:18.667606+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 186860,
-      "follower_delta": 145652,
-      "follower_per_day": 3400.4,
+      "followers": 186861,
+      "follower_delta": 145653,
+      "follower_per_day": 3399.9,
       "n_sessions": 38,
       "n_live_points": 1024,
       "peak_ccu": 79149,
@@ -45,28 +45,28 @@
       "name_ko": "코가네 랑",
       "name_en": "Cogane Rang",
       "unit": "ABYSS",
-      "followers": 148200,
-      "follower_delta": 108032,
-      "follower_per_day": 2522.1,
+      "followers": 148199,
+      "follower_delta": 108031,
+      "follower_per_day": 2521.7,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
       "avg_ccu": 6083,
-      "ccu_per_1k_followers": 458.5
+      "ccu_per_1k_followers": 458.51
     },
     {
       "rank": 3,
       "name_ko": "시즈키 토아",
       "name_en": "Shizuki Toa",
       "unit": "ABYSS",
-      "followers": 147905,
-      "follower_delta": 107788,
-      "follower_per_day": 2516.4,
+      "followers": 147904,
+      "follower_delta": 107787,
+      "follower_per_day": 2516.0,
       "n_sessions": 39,
       "n_live_points": 1216,
       "peak_ccu": 62637,
       "avg_ccu": 6860,
-      "ccu_per_1k_followers": 423.49
+      "ccu_per_1k_followers": 423.5
     },
     {
       "rank": 4,
@@ -75,7 +75,7 @@
       "unit": "ABYSS",
       "followers": 168662,
       "follower_delta": 129504,
-      "follower_per_day": 3023.4,
+      "follower_per_day": 3022.9,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
@@ -101,8 +101,8 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 283448,
-      "follower_delta": 28122,
+      "followers": 283447,
+      "follower_delta": 28121,
       "follower_per_day": 266.0,
       "n_sessions": 175,
       "n_live_points": 3345,

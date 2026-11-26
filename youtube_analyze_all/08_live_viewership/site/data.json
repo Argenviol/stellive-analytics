@@ -1,28 +1,28 @@
 {
   "meta": {
-    "fetched_at": "2026-11-26T06:44:22.308805+00:00",
-    "n_snapshots": 151297,
+    "fetched_at": "2026-11-26T06:54:43.897418+00:00",
+    "n_snapshots": 151312,
     "n_members": 15,
     "span": [
       "2026-08-12T05:55:39.176Z",
-      "2026-11-26T06:44:22.308805+00:00"
+      "2026-11-26T06:54:43.897418+00:00"
     ],
     "interval_min": 10,
     "source": "Chzzk 비공식 API (channels + polling live-status)",
     "note": "동시시청자는 소급 수집 불가. 이 파일은 계속 자라는 시계열이다."
   },
   "coverage": {
-    "n_snapshots": 138837,
-    "n_timepoints": 11776,
-    "span_hours": 2544.81,
-    "observed_hours": 2020.6,
+    "n_snapshots": 138851,
+    "n_timepoints": 11777,
+    "span_hours": 2544.98,
+    "observed_hours": 2020.78,
     "coverage_ratio": 0.794,
     "largest_gap_hours": 11.3,
-    "n_live_rows": 31244,
+    "n_live_rows": 31246,
     "members": 14,
     "members_tracked": 14,
     "first": "2026-08-12T05:55:39.176000+00:00",
-    "last": "2026-11-26T06:44:22.308805+00:00"
+    "last": "2026-11-26T06:54:43.897418+00:00"
   },
   "enough_coverage": true,
   "members": [
@@ -31,9 +31,9 @@
       "name_ko": "토키노 메리",
       "name_en": "Tokino Mary",
       "unit": "ABYSS",
-      "followers": 186895,
-      "follower_delta": 145687,
-      "follower_per_day": 3375.5,
+      "followers": 186898,
+      "follower_delta": 145690,
+      "follower_per_day": 3375.0,
       "n_sessions": 38,
       "n_live_points": 1024,
       "peak_ccu": 79149,
@@ -47,7 +47,7 @@
       "unit": "ABYSS",
       "followers": 148237,
       "follower_delta": 108069,
-      "follower_per_day": 2503.9,
+      "follower_per_day": 2503.5,
       "n_sessions": 41,
       "n_live_points": 1297,
       "peak_ccu": 67950,
@@ -61,7 +61,7 @@
       "unit": "ABYSS",
       "followers": 147935,
       "follower_delta": 107818,
-      "follower_per_day": 2498.1,
+      "follower_per_day": 2497.7,
       "n_sessions": 39,
       "n_live_points": 1216,
       "peak_ccu": 62637,
@@ -73,9 +73,9 @@
       "name_ko": "하나요 히요리",
       "name_en": "Hanayo Hiyori",
       "unit": "ABYSS",
-      "followers": 168708,
-      "follower_delta": 129550,
-      "follower_per_day": 3001.6,
+      "followers": 168712,
+      "follower_delta": 129554,
+      "follower_per_day": 3001.2,
       "n_sessions": 44,
       "n_live_points": 1131,
       "peak_ccu": 60712,
@@ -87,13 +87,13 @@
       "name_ko": "사키하네 후야",
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
-      "followers": 184648,
-      "follower_delta": 27907,
+      "followers": 184651,
+      "follower_delta": 27910,
       "follower_per_day": 263.2,
       "n_sessions": 110,
-      "n_live_points": 2016,
+      "n_live_points": 2017,
       "peak_ccu": 38402,
-      "avg_ccu": 2434,
+      "avg_ccu": 2435,
       "ccu_per_1k_followers": 207.97
     },
     {
@@ -101,13 +101,13 @@
       "name_ko": "아라하시 타비",
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
-      "followers": 283502,
-      "follower_delta": 28176,
-      "follower_per_day": 265.7,
+      "followers": 283511,
+      "follower_delta": 28185,
+      "follower_per_day": 265.8,
       "n_sessions": 176,
-      "n_live_points": 3362,
+      "n_live_points": 3363,
       "peak_ccu": 38237,
-      "avg_ccu": 5279,
+      "avg_ccu": 5280,
       "ccu_per_1k_followers": 134.87
     },
     {
@@ -117,7 +117,7 @@
       "unit": "CLICHE",
       "followers": 238384,
       "follower_delta": 29049,
-      "follower_per_day": 274.0,
+      "follower_per_day": 273.9,
       "n_sessions": 174,
       "n_live_points": 3240,
       "peak_ccu": 33491,
@@ -157,8 +157,8 @@
       "name_ko": "아카네 리제",
       "name_en": "Akane Lize",
       "unit": "UNIVERSE",
-      "followers": 281008,
-      "follower_delta": 28106,
+      "followers": 281009,
+      "follower_delta": 28107,
       "follower_per_day": 265.1,
       "n_sessions": 128,
       "n_live_points": 2019,
@@ -171,8 +171,8 @@
       "name_ko": "텐코 시부키",
       "name_en": "Tenko Shibuki",
       "unit": "CLICHE",
-      "followers": 266207,
-      "follower_delta": 25090,
+      "followers": 266208,
+      "follower_delta": 25091,
       "follower_per_day": 236.6,
       "n_sessions": 155,
       "n_live_points": 2996,
@@ -199,8 +199,8 @@
       "name_ko": "아야츠노 유니",
       "name_en": "Ayatsuno Yuni",
       "unit": "EVERYS",
-      "followers": 325191,
-      "follower_delta": 23271,
+      "followers": 325192,
+      "follower_delta": 23272,
       "follower_per_day": 219.5,
       "n_sessions": 158,
       "n_live_points": 2954,
@@ -4513,10 +4513,10 @@
       "name_en": "Arahashi Tabi",
       "unit": "UNIVERSE",
       "start_kst": "2026-11-26 12:58",
-      "observed_min": 165.9,
-      "n_points": 17,
-      "peak_ccu": 6361,
-      "avg_ccu": 4847,
+      "observed_min": 176.3,
+      "n_points": 18,
+      "peak_ccu": 6362,
+      "avg_ccu": 4931,
       "title": "에고고고",
       "category": "talk"
     },
@@ -12973,10 +12973,10 @@
       "name_en": "Sakihane Huya",
       "unit": "EVERYS",
       "start_kst": "2026-11-26 13:29",
-      "observed_min": 134.8,
-      "n_points": 14,
+      "observed_min": 145.2,
+      "n_points": 15,
       "peak_ccu": 3530,
-      "avg_ccu": 2761,
+      "avg_ccu": 2805,
       "title": "드 디 어 나 왔 다 아 주 르 프 로 밀 리 아",
       "category": "talk"
     },
@@ -51130,6 +51130,10 @@
         [
           "2026-11-26 15:44",
           6339
+        ],
+        [
+          "2026-11-26 15:54",
+          6362
         ]
       ]
     },
@@ -99628,6 +99632,10 @@
         [
           "2026-11-26 15:44",
           3530
+        ],
+        [
+          "2026-11-26 15:54",
+          3423
         ]
       ]
     },

@@ -1,0 +1,43 @@
+# 멤버 14명의 유튜브 영상·노래 조회수를 다시 받아 루트 멤버별_조회수.md 와 README 맨 위 날짜를 갱신한다.
+# 유튜브 웹(innertube)을 쓰므로 API 키·쿼터가 필요 없다. 노래 목록은 스텔DB 사이트의 site-catalog.json.
+
+name: member-views
+
+on:
+  schedule:
+    - cron: "40 18 * * 0" # 매주 월요일 03:40 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: member-views
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 수집·문서 갱신
+        run: python youtube_analyze_all/member_views/member_views.py refresh
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A youtube_analyze_all/member_views/data 멤버별_조회수.md README.md
+          git diff --staged --quiet || git commit -m "chore: 멤버별 조회수 갱신 $(date -u +%Y-%m-%d)"
+          for try in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && break
+            echo "push 재시도 $try"
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done

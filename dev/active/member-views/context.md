@@ -1,17 +1,16 @@
 # 멤버별 조회수 — 이어받을 때 알아야 할 것
 
-마지막 작업 2026-10-27. 채팅은 사라지므로 여기와 `HANDOVER.md` 만 보고 이어간다.
+마지막 작업 2026-11-27. 채팅은 사라지므로 여기와 `HANDOVER.md` 만 보고 이어간다.
 
 ## 파일
 | 무엇 | 어디 |
 |---|---|
-| 결과 문서 (README 맨 위에서 링크) | 루트 `멤버별_조회수_2026-10-25.md` |
+| 결과 문서 (README 맨 위에서 링크) | 루트 `멤버별_조회수.md` |
 | 계산 스크립트 | `youtube_analyze_all/member_views/member_views.py` (사용법은 파일 머리말) |
-| 원본 데이터 (10/27 수집) | `youtube_analyze_all/member_views/data/<key>_full.json`(채널 영상 전부)·`<key>_songs.json`(노래 통계 곡) |
+| 원본 데이터 (매주 갱신, 수집일 `data/meta.json`) | `youtube_analyze_all/member_views/data/<key>_full.json`(채널 영상 전부)·`<key>_songs.json`(노래 통계 곡) |
 
-- `python member_views.py summary` 가 문서 표 1·2의 숫자를 그대로 낸다(10/27 대조, 60칸 일치).
-- 새로 받기: `python member_views.py fetch <key> <UC…채널ID> [SONG_DATA 키] --app <stel-database/app.js 경로>`.
-  API 키가 필요 없다(유튜브 웹 innertube). 채널 ID 는 `youtube_analyze_all/01_member_channel_performance/data/channels.csv`.
+- `python member_views.py refresh` 가 14명을 다시 받고 문서·README 날짜를 다시 쓴다(Actions `member-views` 매주 월요일). `report`는 받지 않고 문서만.
+- API 키가 필요 없다(유튜브 웹 innertube). 노래 목록은 스텔DB `static/site-catalog.json`. 3절 특징 칸은 해석이라 스크립트의 `FEATURES`를 손으로 고친다.
 - 키: yuni·huya·hina·mashiro·lize·tabi·shibuki·rin·nana·riko·toa·ran·hiyori·mary. 노래 키는 리제만 `rize`.
 
 ## 운영자가 정한 기준 (대화에서)

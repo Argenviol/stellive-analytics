@@ -36,11 +36,18 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # 스텔 DB 이용 집계 — 비밀값(STELDB_SUPABASE_URL·KEY)이 없으면 지난 스냅샷을 그대로 쓴다.
+      - name: 스텔 DB 이용 집계
+        env:
+          STELDB_SUPABASE_URL: ${{ secrets.STELDB_SUPABASE_URL }}
+          STELDB_SUPABASE_KEY: ${{ secrets.STELDB_SUPABASE_KEY }}
+        run: python collect/steldb_usage.py || echo "::warning::스텔 DB 집계 실패 — 지난 스냅샷 사용"
+
       # 하나가 실패해도 나머지는 돌린다 — 실패는 잡을 빨갛게 남긴다.
       - name: 분석
         run: |
           rc=0
-          for s in origin_of_viewers dc_reaction hypotheses shorts_formats shorts_first_movers cover_reaction cover_watch; do
+          for s in origin_of_viewers dc_reaction hypotheses shorts_formats shorts_first_movers cover_reaction cover_watch steldb_usage; do
             python analysis/$s.py > /dev/null || { echo "::error::$s 실패"; rc=1; }
           done
           exit $rc
@@ -50,7 +57,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A analysis/out
+          git add -A analysis/out collect/data/steldb_usage.json
           git diff --staged --quiet || git commit -m "chore: 분석 결과 갱신 $(date -u +%Y-%m-%d)"
           for try in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin HEAD:main && break

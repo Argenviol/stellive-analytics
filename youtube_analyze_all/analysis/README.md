@@ -12,6 +12,7 @@
 | `shorts_first_movers.py` | 같은 숏폼 형식을 누가 먼저 올렸고 누구 반응이 좋았나 | `out/shorts_first_movers.md` |
 | `cover_watch.py` | 유명 곡의 커버가 올린 채널의 평소 대비 얼마나 인기를 끌었나 | `out/cover_watch.md` |
 | `cover_reaction.py` | 커버곡 반응 배수 + 다음 분기 애니 일정 | `out/cover_reaction.md` |
+| `steldb_usage.py` | 스텔 DB를 누가 얼마나 오고·다시 오고·무엇을 보고·어디로 나가나 (집계: `collect/steldb_usage.py`) | `out/steldb_usage.md` |
 | `hypotheses.py` | 가설 H1~H6 (되는 만큼, 안 되면 사유와 함께 보류) | `out/hypotheses.md` |
 
 가설 정의는 [`../../자료_점검_및_분석계획.md`](../../자료_점검_및_분석계획.md) 6절.

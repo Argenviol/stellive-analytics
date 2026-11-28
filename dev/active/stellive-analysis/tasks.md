@@ -1,9 +1,9 @@
 # 스텔라이브 시청자·반응 분석 — 할 일
 
 ## 기간만 기다리면 되는 것 (추후 공개)
-- [ ] H1 5주차 — 4기 데뷔 5주 뒤(2026-11-22 이후) `analysis/out/hypotheses.md` 에서 확인
-- [ ] H3 — 디시 수집이 끝난 뒤 `analysis/out/dc_reaction.md`·H3 갱신 확인(`analyze-community` 가 자동으로 다시 돈다)
-- [ ] H5 — 치지직 전체 시계열(`collect-vtubers`)이 14일 이상 쌓인 뒤(2026-11-21 이후)
+- [x] H1 5주차 — 2026-11-28 확인(1주 대비 5주 평균 57~77% 감소, n=4)
+- [ ] H3 — 디시 수집이 10/18 이후만 있다. 과거 글을 더 받은 뒤 `analysis/out/dc_reaction.md`·H3 갱신 확인(`analyze-community` 가 자동으로 다시 돈다)
+- [x] H5 — 2026-11-28 22일치로 계산(상관 +0.17·+0.18). 기간이 짧아 계속 쌓는다
 - [ ] 쇼츠 시점별 이력(`collect-shorts`) 14일 이상 쌓인 뒤 — 업로드 후 같은 일수로 형식 비교
 - [ ] 생방 채팅 집계(`collect-live-chat`)가 쌓인 뒤 H4 생방 절(후원 금액·시청자별 한 시간 채팅)을 다시 본다
 - [ ] 다시보기 채팅 27개를 시청자별 시간 집계로 다시 받기 — Actions `collect-community` 의 `chat-abyss-debut`·`chat-control`(이미 받은 방송도 이 집계가 없으면 다시 받는다)
